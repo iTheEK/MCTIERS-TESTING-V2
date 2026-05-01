@@ -23,7 +23,10 @@ export default function ProfileModal({ player, onClose }) {
 
         {/* AVATAR */}
 <img
-src={`https://mc-heads.net/avatar/${player.name}/100`}
+  src={`https://render.crafty.gg/3d/bust/${player.name}`}
+  onError={(e) => {
+    e.target.src = `https://mc-heads.net/avatar/${player.name}/100`;
+  }}
   className="pm-avatar"
 />
 
