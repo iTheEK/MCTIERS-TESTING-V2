@@ -1,0 +1,586 @@
+/* ===========================
+   FONDO GLOBAL
+=========================== */
+body {
+  background: #0d0d0d;
+  color: white;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.app {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* ===========================
+   HEADER
+=========================== */
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  padding: 20px 30px;
+  box-sizing: border-box;
+}
+
+.header-title {
+  font-size: 22px;
+  font-weight: 900;
+  letter-spacing: 1px;
+  color: #f5f5f5;
+  text-shadow: 0 0 8px #ffcc33;
+  margin: 0;
+}
+
+/* ===========================
+   BUSCADOR
+=========================== */
+.search-container {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 30px;
+  margin-top: -10px;
+  margin-bottom: 20px;
+}
+
+.search-input {
+  width: 180px;
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  background: #1a1a1a;
+  color: white;
+  font-size: 14px;
+  box-shadow: 0 0 4px #000;
+}
+
+/* ===========================
+   LEADERBOARD
+=========================== */
+.lb-container {
+  width: 100%;
+  max-width: 1300px;   /* MÁS ANCHO, estilo foto */
+  margin: 0 auto;
+  margin-top: 32px;    /* un poco más de aire */
+}
+
+.lb-row {
+  display: flex;
+  align-items: center;
+  gap: 34px;            /* más separación */
+  padding: 26px 32px;   /* más alto y más ancho */
+  background: #111;
+  border-bottom: 1px solid #1f1f1f;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.lb-row:hover {
+  background: #181818;
+}
+
+/* ===========================
+   RANK GLOW
+=========================== */
+.rank-1 {
+  box-shadow: 0 0 18px #ffcc33;
+  border-left: 4px solid #ffcc33;
+}
+
+.rank-2 {
+  box-shadow: 0 0 18px #d0d0d0;
+  border-left: 4px solid #d0d0d0;
+}
+
+.rank-3 {
+  box-shadow: 0 0 18px #c47a2c;
+  border-left: 4px solid #c47a2c;
+}
+
+/* ===========================
+   RANK NUMBER
+=========================== */
+.lb-rank-number {
+  font-size: 20px;
+  font-weight: 900;
+  width: 30px;
+  text-align: center;
+  color: #fff;
+  opacity: 0.9;
+}
+
+/* ===========================
+   AVATAR
+=========================== */
+.lb-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 6px;
+}
+
+/* ===========================
+   NOMBRE
+=========================== */
+.lb-name {
+  font-size: 18px;
+  font-weight: 600;
+  width: 160px;
+}
+
+/* ===========================
+   PUNTOS
+=========================== */
+.lb-points {
+  font-size: 14px;
+  font-weight: 700;
+  color: #cfcfcf;
+  width: 80px;
+}
+
+/* ===========================
+   MODALIDADES
+=========================== */
+.lb-modes {
+  display: flex;
+  gap: 18px;
+}
+
+.lb-mode-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  pointer-events: none;
+}
+
+/* ===========================
+   ICONO EN CÍRCULO
+=========================== */
+.lb-icon-circle {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  border: 2px solid currentColor;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lb-mode-icon {
+  width: 14px;
+  height: 14px;
+}
+
+/* ===========================
+   CÍRCULO DEL TIER
+=========================== */
+.lb-tier-circle {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lb-tier-text {
+  font-size: 11px;
+  font-weight: 800;
+  text-transform: uppercase;
+  text-shadow: 0px 0px 3px black;
+}
+
+/* ===========================
+   COLORES DEL TIER
+=========================== */
+.lb-tier-circle.lt5, .lb-tier-circle.lt4 { background: #6e6e6e; }
+.lb-tier-text.lt5, .lb-tier-text.lt4 { color: #b5b5b5; }
+
+.lb-tier-circle.ht4 { background: #8a8a8a; }
+.lb-tier-text.ht4 { color: #d0d0d0; }
+
+.lb-tier-circle.lt3 { background: #9c5a00; }
+.lb-tier-circle.ht3 { background: #d08f2f; }
+
+.lb-tier-circle.lt2 { background: #9e9e9e; }
+.lb-tier-circle.ht2 { background: #c4c4c4; }
+
+.lb-tier-circle.lt1 { background: #d4a82c; }
+.lb-tier-circle.ht1 { background: #eacb52; }
+
+.lb-tier-text.lt3 { color: #d47a00; }
+.lb-tier-text.ht3 { color: #ffae42; }
+
+.lb-tier-text.lt2 { color: #bfbfbf; }
+.lb-tier-text.ht2 { color: #dcdcdc; }
+
+.lb-tier-text.lt1 { color: #ffcc33; }
+.lb-tier-text.ht1 { color: #ffd966; }
+
+/* ===========================
+   ICONOS COLOREADOS
+=========================== */
+.lb-icon-circle.lt5, .lb-icon-circle.lt4 { color: #b5b5b5; }
+.lb-icon-circle.ht4 { color: #d0d0d0; }
+
+.lb-icon-circle.lt3 { color: #9c5a00; }
+.lb-icon-circle.ht3 { color: #d08f2f; }
+
+.lb-icon-circle.lt2 { color: #9e9e9e; }
+.lb-icon-circle.ht2 { color: #c4c4c4; }
+
+.lb-icon-circle.lt1 { color: #d4a82c; }
+.lb-icon-circle.ht1 { color: #eacb52; }
+
+/* ===========================
+   RETIRED
+=========================== */
+.lb-tier-circle.rlt2,
+.lb-tier-circle.rht2,
+.lb-tier-circle.rlt1,
+.lb-tier-circle.rht1 {
+  background: #6e6e6e;
+}
+
+.lb-icon-circle.rlt2,
+.lb-icon-circle.rht2,
+.lb-icon-circle.rlt1,
+.lb-icon-circle.rht1 {
+  color: #6e6e6e;
+}
+
+.lb-tier-text.rlt2 { color: #bfbfbf; }
+.lb-tier-text.rht2 { color: #dcdcdc; }
+.lb-tier-text.rlt1 { color: #ffcc33; }
+.lb-tier-text.rht1 { color: #ffd966; }
+
+/* ===========================
+   MODAL
+=========================== */
+.pm-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.65);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.pm-card {
+  background: #111;
+  padding: 40px;
+  border-radius: 14px;
+  width: 420px;
+  text-align: center;
+}
+
+.pm-avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+}
+
+.pm-name {
+  font-size: 26px;
+  margin-top: 14px;
+  margin-bottom: 20px;
+}
+
+.pm-modes {
+  display: flex;
+  justify-content: center;
+  gap: 26px;
+  flex-wrap: wrap;
+}
+
+.pm-mode-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+}
+
+.pm-icon-circle {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 2px solid currentColor;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pm-mode-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.pm-tier-circle {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pm-tier-text {
+  font-size: 13px;
+  font-weight: 800;
+  text-transform: uppercase;
+  text-shadow: 0px 0px 3px black;
+}
+
+/* ===========================
+   MODAL — COLORES IGUALES AL LEADERBOARD
+=========================== */
+
+/* CÍRCULO DEL TIER */
+.pm-tier-circle.lt5, .pm-tier-circle.lt4 { background: #6e6e6e; }
+.pm-tier-text.lt5, .pm-tier-text.lt4 { color: #b5b5b5; }
+
+.pm-tier-circle.ht4 { background: #8a8a8a; }
+.pm-tier-text.ht4 { color: #d0d0d0; }
+
+.pm-tier-circle.lt3 { background: #9c5a00; }
+.pm-tier-circle.ht3 { background: #d08f2f; }
+
+.pm-tier-circle.lt2 { background: #9e9e9e; }
+.pm-tier-circle.ht2 { background: #c4c4c4; }
+
+.pm-tier-circle.lt1 { background: #d4a82c; }
+.pm-tier-circle.ht1 { background: #eacb52; }
+
+.pm-tier-text.lt3 { color: #d47a00; }
+.pm-tier-text.ht3 { color: #ffae42; }
+
+.pm-tier-text.lt2 { color: #bfbfbf; }
+.pm-tier-text.ht2 { color: #dcdcdc; }
+
+.pm-tier-text.lt1 { color: #ffcc33; }
+.pm-tier-text.ht1 { color: #ffd966; }
+
+/* ICONOS */
+.pm-icon-circle.lt5, .pm-icon-circle.lt4 { color: #b5b5b5; }
+.pm-icon-circle.ht4 { color: #d0d0d0; }
+
+.pm-icon-circle.lt3 { color: #9c5a00; }
+.pm-icon-circle.ht3 { color: #d08f2f; }
+
+.pm-icon-circle.lt2 { color: #9e9e9e; }
+.pm-icon-circle.ht2 { color: #c4c4c4; }
+
+.pm-icon-circle.lt1 { color: #d4a82c; }
+.pm-icon-circle.ht1 { color: #eacb52; }
+
+/* ===========================
+   RETIRED — MODAL (FIX FINAL)
+=========================== */
+
+/* Fondo gris oscuro igual LT5/LT4 */
+.pm-tier-circle.rlt2,
+.pm-tier-circle.rht2,
+.pm-tier-circle.rlt1,
+.pm-tier-circle.rht1 {
+  background: #6e6e6e;
+}
+
+/* Icono gris oscuro */
+.pm-icon-circle.rlt2,
+.pm-icon-circle.rht2,
+.pm-icon-circle.rlt1,
+.pm-icon-circle.rht1 {
+  color: #6e6e6e;
+}
+
+/* Texto mantiene su color original */
+.pm-tier-text.rlt2 { color: #bfbfbf; }  /* LT2 */
+.pm-tier-text.rht2 { color: #dcdcdc; }  /* HT2 */
+
+.pm-tier-text.rlt1 { color: #ffcc33; }  /* LT1 */
+.pm-tier-text.rht1 { color: #ffd966; }  /* HT1 */
+
+/* Fondo detrás de la skin según posición */
+.lb-avatar-bg {
+  width: 52px;
+  height: 52px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Colores estilo top */
+.lb-avatar-bg.rank-1 {
+  background: #ffcc33;
+  box-shadow: 0 0 14px #ffcc33;
+}
+
+.lb-avatar-bg.rank-2 {
+  background: #d0d0d0;
+  box-shadow: 0 0 14px #d0d0d0;
+}
+
+.lb-avatar-bg.rank-3 {
+  background: #c47a2c;
+  box-shadow: 0 0 14px #c47a2c;
+}
+
+.lb-avatar-bg.rank-4,
+.lb-avatar-bg.rank-5,
+.lb-avatar-bg.rank-6,
+.lb-avatar-bg.rank-7,
+.lb-avatar-bg.rank-8,
+.lb-avatar-bg.rank-9,
+.lb-avatar-bg.rank-10 {
+  background: #2a2a2a;
+  box-shadow: 0 0 10px #000;
+}
+
+/* Ajuste del avatar dentro del fondo */
+.lb-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 6px;
+}
+
+/* Banner de rank + skin 3D */
+.lb-rank-banner {
+  display: flex;
+  align-items: center;
+  gap: 14px;            /* más espacio entre número y skin */
+  padding: 10px 20px;   /* más alto y más ancho */
+  border-radius: 14px;  /* más suave */
+  min-width: 220px;     /* estilo EXACTO de la foto */
+}
+
+/* Colores según posición (estilo imagen) */
+.lb-rank-banner.rank-1 {
+  background: #ffcc33;
+}
+
+.lb-rank-banner.rank-2 {
+  background: #d0d0d0;
+}
+
+.lb-rank-banner.rank-3 {
+  background: #c47a2c;
+}
+
+.lb-rank-banner.rank-4,
+.lb-rank-banner.rank-5,
+.lb-rank-banner.rank-6,
+.lb-rank-banner.rank-7,
+.lb-rank-banner.rank-8,
+.lb-rank-banner.rank-9,
+.lb-rank-banner.rank-10 {
+  background: #2a2a2a;
+}
+
+/* Número dentro del banner (perfil y leaderboard) */
+.lb-rank-number,
+.pm-rank-number {
+  font-size: 22px;
+  font-weight: 900;
+  color: #ffffff; /* SIEMPRE BLANCO */
+}
+
+/* Skin 3D */
+.lb-avatar-3d {
+  width: 62px;          /* tamaño perfecto estilo foto */
+  height: 62px;
+  image-rendering: pixelated;
+}
+/* ===========================
+   POSITION BANNER (MODAL)
+=========================== */
+
+.pm-rank-banner {
+  margin-top: 18px;
+  margin-bottom: 12px;
+  padding: 12px 20px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  justify-content: center;
+}
+
+/* Colores según posición (IGUAL QUE EL LEADERBOARD) */
+.pm-rank-banner.rank-1 {
+  background: #ffcc33;
+}
+
+.pm-rank-banner.rank-2 {
+  background: #d0d0d0;
+}
+
+.pm-rank-banner.rank-3 {
+  background: #c47a2c;
+}
+
+.pm-rank-banner.rank-4,
+.pm-rank-banner.rank-5,
+.pm-rank-banner.rank-6,
+.pm-rank-banner.rank-7,
+.pm-rank-banner.rank-8,
+.pm-rank-banner.rank-9,
+.pm-rank-banner.rank-10 {
+  background: #2a2a2a;
+}
+
+/* Número */
+.pm-rank-number {
+  font-size: 32px;
+  font-weight: 900;
+  color: white;
+}
+
+/* Trofeo */
+.pm-rank-trophy {
+  font-size: 26px;
+}
+
+/* Texto */
+.pm-rank-text {
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
+  opacity: 0.95;
+}
+
+/* ===========================
+   HT5 (igual que LT5/LT4)
+=========================== */
+
+/* Leaderboard */
+.lb-tier-circle.ht5 {
+  background: #6e6e6e;
+}
+
+.lb-tier-text.ht5 {
+  color: #b5b5b5;
+}
+
+.lb-icon-circle.ht5 {
+  color: #b5b5b5;
+}
+
+/* Modal */
+.pm-tier-circle.ht5 {
+  background: #6e6e6e;
+}
+
+.pm-tier-text.ht5 {
+  color: #b5b5b5;
+}
+
+.pm-icon-circle.ht5 {
+  color: #b5b5b5;
+}

@@ -1,0 +1,106 @@
+[
+  {
+    "name": "NoSoyHenry",
+    "modes": {
+      "UHC": "",
+      "SWORD": "LT5",
+      "AXE": "HT4",
+      "DIAPOT": "",
+      "NETHPOT": "",
+      "MAZO": "HT4",
+      "CRYSTAL": "HT4",
+      "SMP": ""
+    }
+  },
+  {
+    "name": "AlgnEnParticular",
+    "modes": {
+      "UHC": "LT3",
+      "SWORD": "",
+      "AXE": "LT3",
+      "DIAPOT": "",
+      "NETHPOT": "",
+      "MAZO": "",
+      "CRYSTAL": "",
+      "SMP": ""
+    }
+  },
+  {
+    "name": "Neziepls",
+    "modes": {
+      "UHC": "HT4",
+      "SWORD": "HT4",
+      "AXE": "LT4",
+      "DIAPOT": "LT4",
+      "NETHPOT": "HT4",
+      "MAZO": "HT5",
+      "CRYSTAL": "LT4",
+      "SMP": "HT4"
+    }
+  },
+  {
+    "name": "Matz15_",
+    "modes": {
+      "UHC": "",
+      "SWORD": "LT3",
+      "AXE": "",
+      "DIAPOT": "LT3",
+      "NETHPOT": "LT3",
+      "MAZO": "",
+      "CRYSTAL": "",
+      "SMP": ""
+    }
+  },
+  {
+    "name": "NovaJoe",
+    "modes": {
+      "UHC": "HT5",
+      "SWORD": "LT3",
+      "AXE": "",
+      "DIAPOT": "",
+      "NETHPOT": "",
+      "MAZO": "LT3",
+      "CRYSTAL": "",
+      "SMP": ""
+    }
+  },
+  {
+    "name": "sNeoo",
+    "modes": {
+      "UHC": "LT4",
+      "SWORD": "",
+      "AXE": "",
+      "DIAPOT": "",
+      "NETHPOT": "",
+      "MAZO": "",
+      "CRYSTAL": "HT3",
+      "SMP": ""
+    }
+  },
+  {
+    "name": "Zkwre",
+    "modes": {
+      "UHC": "LT3",
+      "SWORD": "",
+      "AXE": "LT3",
+      "DIAPOT": "",
+      "NETHPOT": "",
+      "MAZO": "",
+      "CRYSTAL": "",
+      "SMP": ""
+    }
+  },
+  {
+    "name": "Joshew",
+    "modes": {
+      "UHC": "LT3",
+      "SWORD": "LT4",
+      "AXE": "LT3",
+      "DIAPOT": "",
+      "NETHPOT": "",
+      "MAZO": "LT3",
+      "CRYSTAL": "HT3",
+      "SMP": ""
+    }
+  }
+]
