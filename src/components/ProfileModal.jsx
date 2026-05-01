@@ -22,10 +22,10 @@ export default function ProfileModal({ player, onClose }) {
       <div className="pm-card" onClick={(e) => e.stopPropagation()}>
 
         {/* AVATAR */}
-<img
-  src={`https://render.crafty.gg/3d/bust/${player.name}`}
-  className="pm-avatar"
-/>
+        <img
+          src={`https://mc-heads.net/avatar/${player.name}/100`}
+          className="pm-avatar"
+        />
 
         {/* NOMBRE */}
         <h2 className="pm-name">{player.name}</h2>
