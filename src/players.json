@@ -1,4 +1,17 @@
 [
+         {
+    "name": "PouSupremo_",
+    "modes": {
+      "UHC": "-",
+      "SWORD": "-",
+      "AXE": "-",
+      "DIAPOT": "-",
+      "NETHPOT": "-",
+      "MAZO": "LT5",
+      "CRYSTAL": "-",
+      "SMP": "-"
+    }
+  },
         {
     "name": "CherrrryBun",
     "modes": {
