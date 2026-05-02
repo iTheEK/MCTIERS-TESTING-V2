@@ -1,4 +1,17 @@
 [
+       {
+    "name": "Kevlali",
+    "modes": {
+      "UHC": "LT4",
+      "SWORD": "LT5",
+      "AXE": "-",
+      "DIAPOT": "-",
+      "NETHPOT": "-",
+      "MAZO": "LT5",
+      "CRYSTAL": "-",
+      "SMP": "-"
+    }
+  },
       {
     "name": "brtkz_mc",
     "modes": {
