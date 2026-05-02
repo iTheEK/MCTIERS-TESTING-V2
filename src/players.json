@@ -1,4 +1,17 @@
 [
+             {
+    "name": "Ldwss",
+    "modes": {
+      "UHC": "-",
+      "SWORD": "-",
+      "AXE": "-",
+      "DIAPOT": "-",
+      "NETHPOT": "-",
+      "MAZO": "-",
+      "CRYSTAL": "LT3",
+      "SMP": "-"
+    }
+  },
             {
     "name": "iLythh_",
     "modes": {
