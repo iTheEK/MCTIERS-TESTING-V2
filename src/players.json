@@ -109,11 +109,11 @@
       "UHC": "HT4",
       "SWORD": "HT4",
       "AXE": "LT4",
-      "DIAPOT": "LT4",
+      "DIAPOT": "-",
       "NETHPOT": "HT4",
-      "MAZO": "HT5",
-      "CRYSTAL": "LT4",
-      "SMP": "HT4"
+      "MAZO": "-",
+      "CRYSTAL": "-",
+      "SMP": "-"
     }
   },
   {
