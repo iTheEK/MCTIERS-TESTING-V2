@@ -1,4 +1,17 @@
 [
+        {
+    "name": "Atrapagemas",
+    "modes": {
+      "UHC": "-",
+      "SWORD": "LT3",
+      "AXE": "-",
+      "DIAPOT": "-",
+      "NETHPOT": "-",
+      "MAZO": "-",
+      "CRYSTAL": "-",
+      "SMP": "-"
+    }
+  },
        {
     "name": "Kevlali",
     "modes": {
