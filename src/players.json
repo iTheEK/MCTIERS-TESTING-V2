@@ -1,4 +1,43 @@
 [
+        {
+    "name": "CherrrryBun",
+    "modes": {
+      "UHC": "-",
+      "SWORD": "LT3",
+      "AXE": "-",
+      "DIAPOT": "LT3",
+      "NETHPOT": "-",
+      "MAZO": "-",
+      "CRYSTAL": "-",
+      "SMP": "-"
+    }
+  },
+        {
+    "name": "Mr_J",
+    "modes": {
+      "UHC": "LT5",
+      "SWORD": "HT5",
+      "AXE": "HT5",
+      "DIAPOT": "-",
+      "NETHPOT": "-",
+      "MAZO": "-",
+      "CRYSTAL": "LT5",
+      "SMP": "-"
+    }
+  },
+        {
+    "name": "IdeasOrejas",
+    "modes": {
+      "UHC": "-",
+      "SWORD": "-",
+      "AXE": "-",
+      "DIAPOT": "-",
+      "NETHPOT": "-",
+      "MAZO": "HT3",
+      "CRYSTAL": "-",
+      "SMP": "-"
+    }
+  },
        {
     "name": "Dyggar",
     "modes": {
