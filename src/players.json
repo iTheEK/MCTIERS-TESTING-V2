@@ -1,4 +1,30 @@
 [
+         {
+    "name": "pizza0retrun",
+    "modes": {
+      "UHC": "-",
+      "SWORD": "LT5",
+      "AXE": "LT5",
+      "DIAPOT": "-",
+      "NETHPOT": "-",
+      "MAZO": "LT5",
+      "CRYSTAL": "-",
+      "SMP": "-"
+    }
+  },
+         {
+    "name": "Leolgve",
+    "modes": {
+      "UHC": "-",
+      "SWORD": "-",
+      "AXE": "-",
+      "DIAPOT": "-",
+      "NETHPOT": "-",
+      "MAZO": "-",
+      "CRYSTAL": "LT3",
+      "SMP": "-"
+    }
+  },
         {
     "name": "Atrapagemas",
     "modes": {
@@ -176,7 +202,7 @@
       "AXE": "HT5",
       "DIAPOT": "-",
       "NETHPOT": "-",
-      "MAZO": "-",
+      "MAZO": "HT5",
       "CRYSTAL": "LT5",
       "SMP": "-"
     }
