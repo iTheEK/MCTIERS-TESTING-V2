@@ -1,4 +1,18 @@
 [
+    {
+    "name": "cocohz",
+    "modes": {
+      "UHC": "LT3",
+      "SWORD": "",
+      "AXE": "",
+      "DIAPOT": "",
+      "NETHPOT": "",
+      "MAZO": "",
+      "CRYSTAL": "",
+      "SMP": ""
+    }
+  },
+
    {
     "name": "SkibidiLousy",
     "modes": {
