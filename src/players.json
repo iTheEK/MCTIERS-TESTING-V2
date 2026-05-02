@@ -1,4 +1,17 @@
 [
+      {
+    "name": "brtkz_mc",
+    "modes": {
+      "UHC": "LT4",
+      "SWORD": "HT4",
+      "AXE": "LT4",
+      "DIAPOT": "-",
+      "NETHPOT": "-",
+      "MAZO": "-",
+      "CRYSTAL": "-",
+      "SMP": "-"
+    }
+  },
      {
     "name": "xuleriebestofsa",
     "modes": {
