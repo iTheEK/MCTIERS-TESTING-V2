@@ -198,7 +198,7 @@
     "name": "cocohz",
     "modes": {
       "UHC": "LT3",
-      "SWORD": "-",
+      "SWORD": "LT3",
       "AXE": "-",
       "DIAPOT": "-",
       "NETHPOT": "-",
