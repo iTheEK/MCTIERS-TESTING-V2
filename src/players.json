@@ -1,4 +1,17 @@
 [
+       {
+    "name": "Dyggar",
+    "modes": {
+      "UHC": "-",
+      "SWORD": "-",
+      "AXE": "-",
+      "DIAPOT": "-",
+      "NETHPOT": "-",
+      "MAZO": "LT3",
+      "CRYSTAL": "-",
+      "SMP": "-"
+    }
+  },
       {
     "name": "Darinhooo",
     "modes": {
