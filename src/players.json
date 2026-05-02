@@ -1,4 +1,17 @@
 [
+             {
+    "name": "LT_TaiwanConDrip",
+    "modes": {
+      "UHC": "-",
+      "SWORD": "LT3",
+      "AXE": "-",
+      "DIAPOT": "-",
+      "NETHPOT": "LT3",
+      "MAZO": "-",
+      "CRYSTAL": "-",
+      "SMP": "-"
+    }
+  },
             {
     "name": "mcb116",
     "modes": {
@@ -42,10 +55,10 @@
     "name": "JuxnDz",
     "modes": {
       "UHC": "-",
-      "SWORD": "LT3",
+      "SWORD": "HT3",
       "AXE": "-",
       "DIAPOT": "-",
-      "NETHPOT": "-",
+      "NETHPOT": "LT3",
       "MAZO": "HT4",
       "CRYSTAL": "-",
       "SMP": "-"
