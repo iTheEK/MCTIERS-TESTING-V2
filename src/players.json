@@ -1,4 +1,30 @@
 [
+           {
+    "name": "ImSofiaLover",
+    "modes": {
+      "UHC": "-",
+      "SWORD": "-",
+      "AXE": "-",
+      "DIAPOT": "-",
+      "NETHPOT": "-",
+      "MAZO": "-",
+      "CRYSTAL": "-",
+      "SMP": "-"
+    }
+  },
+           {
+    "name": "santicpvp",
+    "modes": {
+      "UHC": "-",
+      "SWORD": "LT5",
+      "AXE": "LT5",
+      "DIAPOT": "-",
+      "NETHPOT": "-",
+      "MAZO": "LT5",
+      "CRYSTAL": "HT5",
+      "SMP": "-"
+    }
+  },
           {
     "name": "PablitoSixSeven",
     "modes": {
@@ -107,7 +133,7 @@
     "name": "zjotamc",
     "modes": {
       "UHC": "LT5",
-      "SWORD": "-",
+      "SWORD": "HT5",
       "AXE": "-",
       "DIAPOT": "-",
       "NETHPOT": "-",
