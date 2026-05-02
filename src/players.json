@@ -1,4 +1,17 @@
 [
+   {
+    "name": "Shafyx",
+    "modes": {
+      "UHC": "-",
+      "SWORD": "-",
+      "AXE": "-",
+      "DIAPOT": "-",
+      "NETHPOT": "-",
+      "MAZO": "HT4",
+      "CRYSTAL": "-",
+      "SMP": "-"
+    }
+  },
              {
     "name": "LT_TaiwanConDrip",
     "modes": {
@@ -253,7 +266,7 @@
       "SWORD": "-",
       "AXE": "-",
       "DIAPOT": "-",
-      "NETHPOT": "-",
+      "NETHPOT": "LT3",
       "MAZO": "LT5",
       "CRYSTAL": "-",
       "SMP": "-"
