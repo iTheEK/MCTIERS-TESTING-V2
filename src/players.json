@@ -1,9 +1,48 @@
 [
+            {
+    "name": "mcb116",
+    "modes": {
+      "UHC": "-",
+      "SWORD": "LT3           ",
+      "AXE": "-",
+      "DIAPOT": "-",
+      "NETHPOT": "-",
+      "MAZO": "-",
+      "CRYSTAL": "-",
+      "SMP": "-"
+    }
+  },
+            {
+    "name": "Ignorital72",
+    "modes": {
+      "UHC": "-",
+      "SWORD": "LT3",
+      "AXE": "-",
+      "DIAPOT": "-",
+      "NETHPOT": "-",
+      "MAZO": "-",
+      "CRYSTAL": "-",
+      "SMP": "-"
+    }
+  },
+            {
+    "name": "Sloksy",
+    "modes": {
+      "UHC": "-",
+      "SWORD": "HT4",
+      "AXE": "-",
+      "DIAPOT": "-",
+      "NETHPOT": "-",
+      "MAZO": "LT4",
+      "CRYSTAL": "-",
+      "SMP": "-"
+    }
+  },
            {
     "name": "JuxnDz",
     "modes": {
       "UHC": "-",
-      "SWORD": "-",
+      "SWORD": "LT3",
       "AXE": "-",
       "DIAPOT": "-",
       "NETHPOT": "-",
@@ -292,7 +331,7 @@
       "SWORD": "HT5",
       "AXE": "-",
       "DIAPOT": "-",
-      "NETHPOT": "-",
+      "NETHPOT": "HT5",
       "MAZO": "LT5",
       "CRYSTAL": "-",
       "SMP": "-"
