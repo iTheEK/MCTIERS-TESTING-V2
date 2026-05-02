@@ -1,4 +1,32 @@
 [
+     {
+    "name": "zjotamc",
+    "modes": {
+      "UHC": "LT5",
+      "SWORD": "",
+      "AXE": "",
+      "DIAPOT": "",
+      "NETHPOT": "",
+      "MAZO": "",
+      "CRYSTAL": "",
+      "SMP": ""
+    }
+  },
+
+     {
+    "name": "bry_10",
+    "modes": {
+      "UHC": "LT5",
+      "SWORD": "",
+      "AXE": "",
+      "DIAPOT": "",
+      "NETHPOT": "",
+      "MAZO": "LT5",
+      "CRYSTAL": "",
+      "SMP": ""
+    }
+  },
+
     {
     "name": "cocohz",
     "modes": {
