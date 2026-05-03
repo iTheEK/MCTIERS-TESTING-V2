@@ -380,7 +380,7 @@
     "name": "ifransw",
     "modes": {
       "UHC": "HT4",
-      "SWORD": "",
+      "SWORD": "-",
       "AXE": "HT4",
       "DIAPOT": "-",
       "NETHPOT": "-",
