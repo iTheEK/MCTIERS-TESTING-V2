@@ -1,4 +1,30 @@
 [
+     {
+    "name": "pvp_angello",
+    "modes": {
+      "UHC": "HT5",
+      "SWORD": "-",
+      "AXE": "-",
+      "DIAPOT": "-",
+      "NETHPOT": "-",
+      "MAZO": "-",
+      "CRYSTAL": "-",
+      "SMP": "-"
+    }
+  },
+     {
+    "name": "bufonhz",
+    "modes": {
+      "UHC": "HT4",
+      "SWORD": "-",
+      "AXE": "-",
+      "DIAPOT": "-",
+      "NETHPOT": "-",
+      "MAZO": "-",
+      "CRYSTAL": "-",
+      "SMP": "-"
+    }
+  },
     {
     "name": "DangerYamxzaki",
     "modes": {
@@ -133,7 +159,7 @@
     "name": "Atrapagemas",
     "modes": {
       "UHC": "-",
-      "SWORD": "LT3",
+      "SWORD": "HT3",
       "AXE": "-",
       "DIAPOT": "-",
       "NETHPOT": "-",
