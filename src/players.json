@@ -1,4 +1,17 @@
 [
+       {
+    "name": "DylannEz",
+    "modes": {
+      "UHC": "-",
+      "SWORD": "-",
+      "AXE": "-",
+      "DIAPOT": "-",
+      "NETHPOT": "-",
+      "MAZO": "-",
+      "CRYSTAL": "-",
+      "SMP": "-"
+    }
+  },
       {
     "name": "Thelegendavid27",
     "modes": {
@@ -320,7 +333,7 @@
       "DIAPOT": "-",
       "NETHPOT": "LT3",
       "MAZO": "LT5",
-      "CRYSTAL": "-",
+      "CRYSTAL": "HT4",
       "SMP": "-"
     }
   },
