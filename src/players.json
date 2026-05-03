@@ -1,17 +1,4 @@
 [
-      {
-    "name": "mcb116",
-    "modes": {
-      "UHC": "LT4",
-      "SWORD": "HT3",
-      "AXE": "-",
-      "DIAPOT": "-",
-      "NETHPOT": "-",
-      "MAZO": "-",
-      "CRYSTAL": "-",
-      "SMP": "-"
-    }
-  },
      {
     "name": "pvp_angello",
     "modes": {
@@ -81,7 +68,7 @@
     "name": "mcb116",
     "modes": {
       "UHC": "LT4",
-      "SWORD": "LT3           ",
+      "SWORD": "HT3",
       "AXE": "-",
       "DIAPOT": "-",
       "NETHPOT": "-",
