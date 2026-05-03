@@ -28,7 +28,7 @@
     {
     "name": "DangerYamxzaki",
     "modes": {
-      "UHC": "-",
+      "UHC": "LT3",
       "SWORD": "LT3",
       "AXE": "-",
       "DIAPOT": "-",
@@ -73,7 +73,7 @@
       "DIAPOT": "-",
       "NETHPOT": "-",
       "MAZO": "-",
-      "CRYSTAL": "-",
+      "CRYSTAL": "LT3",
       "SMP": "-"
     }
   },
@@ -216,7 +216,7 @@
       "DIAPOT": "-",
       "NETHPOT": "-",
       "MAZO": "-",
-      "CRYSTAL": "-",
+      "CRYSTAL": "LT3",
       "SMP": "-"
     }
   },
@@ -353,7 +353,7 @@
        {
     "name": "Dyggan",
     "modes": {
-      "UHC": "-",
+      "UHC": "HT5",
       "SWORD": "LT4",
       "AXE": "LT5",
       "DIAPOT": "-",
