@@ -1,4 +1,30 @@
 [
+        {
+    "name": "ImDzku_",
+    "modes": {
+      "UHC": "LT5",
+      "SWORD": "LT5",
+      "AXE": "LT5",
+      "DIAPOT": "-",
+      "NETHPOT": "LT5",
+      "MAZO": "-",
+      "CRYSTAL": "LT5",
+      "SMP": "LT5"
+    }
+  },
+        {
+    "name": "Itz_Eder",
+    "modes": {
+      "UHC": "-",
+      "SWORD": "LT3",
+      "AXE": "-",
+      "DIAPOT": "-",
+      "NETHPOT": "-",
+      "MAZO": "HT4",
+      "CRYSTAL": "LT3",
+      "SMP": "-"
+    }
+  },
        {
     "name": "DylannEz",
     "modes": {
