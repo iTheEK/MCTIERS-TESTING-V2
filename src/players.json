@@ -1,4 +1,121 @@
 [
+         {
+    "name": "JoshuaByoo",
+    "modes": {
+      "UHC": "-",
+      "SWORD": "HT4",
+      "AXE": "-",
+      "DIAPOT": "-",
+      "NETHPOT": "-",
+      "MAZO": "-",
+      "CRYSTAL": "-",
+      "SMP": "-"
+    }
+  },
+         {
+    "name": "67Bigmacqueque",
+    "modes": {
+      "UHC": "-",
+      "SWORD": "-",
+      "AXE": "-",
+      "DIAPOT": "-",
+      "NETHPOT": "LT5",
+      "MAZO": "-",
+      "CRYSTAL": "HT5",
+      "SMP": "-"
+    }
+  },
+         {
+    "name": "mtkss1",
+    "modes": {
+      "UHC": "-",
+      "SWORD": "-",
+      "AXE": "-",
+      "DIAPOT": "-",
+      "NETHPOT": "-",
+      "MAZO": "-",
+      "CRYSTAL": "LT5",
+      "SMP": "-"
+    }
+  },
+         {
+    "name": "zJasonMx",
+    "modes": {
+      "UHC": "-",
+      "SWORD": "-",
+      "AXE": "-",
+      "DIAPOT": "-",
+      "NETHPOT": "LT4",
+      "MAZO": "-",
+      "CRYSTAL": "-",
+      "SMP": "-"
+    }
+  },
+         {
+    "name": "mtkks1",
+    "modes": {
+      "UHC": "-",
+      "SWORD": "-",
+      "AXE": "-",
+      "DIAPOT": "-",
+      "NETHPOT": "LT5",
+      "MAZO": "-",
+      "CRYSTAL": "-",
+      "SMP": "-"
+    }
+  },
+         {
+    "name": "totitodiaa",
+    "modes": {
+      "UHC": "-",
+      "SWORD": "LT5",
+      "AXE": "-",
+      "DIAPOT": "-",
+      "NETHPOT": "-",
+      "MAZO": "-",
+      "CRYSTAL": "-",
+      "SMP": "-"
+    }
+  },
+         {
+    "name": "HAZYMENDER_",
+    "modes": {
+      "UHC": "-",
+      "SWORD": "LT5",
+      "AXE": "-",
+      "DIAPOT": "-",
+      "NETHPOT": "-",
+      "MAZO": "-",
+      "CRYSTAL": "-",
+      "SMP": "-"
+    }
+  },
+         {
+    "name": "ramiroxc",
+    "modes": {
+      "UHC": "-",
+      "SWORD": "-",
+      "AXE": "-",
+      "DIAPOT": "-",
+      "NETHPOT": "-",
+      "MAZO": "-",
+      "CRYSTAL": "LT4",
+      "SMP": "-"
+    }
+  },
+         {
+    "name": "MaxiIsMyLover",
+    "modes": {
+      "UHC": "-",
+      "SWORD": "-",
+      "AXE": "-",
+      "DIAPOT": "-",
+      "NETHPOT": "-",
+      "MAZO": "LT4",
+      "CRYSTAL": "-",
+      "SMP": "-"
+    }
+  },
         {
     "name": "ImDzku_",
     "modes": {
@@ -85,7 +202,7 @@
       "AXE": "-",
       "DIAPOT": "-",
       "NETHPOT": "-",
-      "MAZO": "-",
+      "MAZO": "LT4",
       "CRYSTAL": "-",
       "SMP": "-"
     }
@@ -450,7 +567,7 @@
       "DIAPOT": "-",
       "NETHPOT": "HT5",
       "MAZO": "LT5",
-      "CRYSTAL": "-",
+      "CRYSTAL": "LT5",
       "SMP": "-"
     }
   },
