@@ -1,4 +1,69 @@
 [
+          {
+    "name": "CldVx",
+    "modes": {
+      "UHC": "-",
+      "SWORD": "-",
+      "AXE": "-",
+      "DIAPOT": "-",
+      "NETHPOT": "-",
+      "MAZO": "-",
+      "CRYSTAL": "-",
+      "SMP": "-"
+    }
+  },
+          {
+    "name": "bruxis2022",
+    "modes": {
+      "UHC": "LT4",
+      "SWORD": "HT4",
+      "AXE": "-",
+      "DIAPOT": "-",
+      "NETHPOT": "-",
+      "MAZO": "-",
+      "CRYSTAL": "-",
+      "SMP": "-"
+    }
+  },
+          {
+    "name": "PopeRulin_",
+    "modes": {
+      "UHC": "-",
+      "SWORD": "-",
+      "AXE": "-",
+      "DIAPOT": "-",
+      "NETHPOT": "-",
+      "MAZO": "-",
+      "CRYSTAL": "-",
+      "SMP": "-"
+    }
+  },
+          {
+    "name": "67_l",
+    "modes": {
+      "UHC": "-",
+      "SWORD": "-",
+      "AXE": "-",
+      "DIAPOT": "-",
+      "NETHPOT": "LT4",
+      "MAZO": "-",
+      "CRYSTAL": "-",
+      "SMP": "-"
+    }
+  },
+          {
+    "name": "ItzMaybe9",
+    "modes": {
+      "UHC": "-",
+      "SWORD": "-",
+      "AXE": "-",
+      "DIAPOT": "-",
+      "NETHPOT": "-",
+      "MAZO": "-",
+      "CRYSTAL": "-",
+      "SMP": "-"
+    }
+  },
          {
     "name": "JoshuaByoo",
     "modes": {
@@ -78,7 +143,7 @@
     }
   },
          {
-    "name": "HAZYMENDER_",
+    "name": "HazyMend3r",
     "modes": {
       "UHC": "-",
       "SWORD": "LT5",
