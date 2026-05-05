@@ -98,7 +98,7 @@
       "AXE": "-",
       "DIAPOT": "-",
       "NETHPOT": "-",
-      "MAZO": "-",
+      "MAZO": "LT4",
       "CRYSTAL": "-",
       "SMP": "-"
     }
@@ -325,19 +325,6 @@
     }
   },
             {
-    "name": "mcb116",
-    "modes": {
-      "UHC": "LT4",
-      "SWORD": "HT3",
-      "AXE": "-",
-      "DIAPOT": "-",
-      "NETHPOT": "-",
-      "MAZO": "-",
-      "CRYSTAL": "LT3",
-      "SMP": "-"
-    }
-  },
-            {
     "name": "Ignorital72",
     "modes": {
       "UHC": "-",
@@ -468,15 +455,15 @@
     }
   },
     {
-    "name": "SnowPhxntom",
+    "name": "pepeprouwu",
     "modes": {
       "UHC": "-",
-      "SWORD": "HT3",
+      "SWORD": "-",
       "AXE": "-",
-      "DIAPOT": "HT4",
-      "NETHPOT": "LT3",
-      "MAZO": "-",
-      "CRYSTAL": "LT3",
+      "DIAPOT": "-",
+      "NETHPOT": "-",
+      "MAZO": "LT3",
+      "CRYSTAL": "-",
       "SMP": "-"
     }
   },
