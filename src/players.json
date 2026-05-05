@@ -215,7 +215,7 @@
       "AXE": "-",
       "DIAPOT": "LT3",
       "NETHPOT": "HT5",
-      "MAZO": "HT4",
+      "MAZO": "LT4",
       "CRYSTAL": "HT4",
       "SMP": "-"
     }
@@ -254,7 +254,7 @@
       "AXE": "-",
       "DIAPOT": "-",
       "NETHPOT": "-",
-      "MAZO": "-",
+      "MAZO": "LT4",
       "CRYSTAL": "-",
       "SMP": "-"
     }
@@ -670,7 +670,7 @@
       "AXE": "-",
       "DIAPOT": "-",
       "NETHPOT": "-",
-      "MAZO": "LT4",
+      "MAZO": "LT3",
       "CRYSTAL": "LT3",
       "SMP": "-"
     }
@@ -692,7 +692,7 @@
     "name": "NoSoyHenry",
     "modes": {
       "UHC": "-",
-      "SWORD": "LT5",
+      "SWORD": "HT5",
       "AXE": "HT4",
       "DIAPOT": "HT4",
       "NETHPOT": "-",
