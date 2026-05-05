@@ -8,7 +8,7 @@
       "DIAPOT": "-",
       "NETHPOT": "-",
       "MAZO": "-",
-      "CRYSTAL": "HT5",
+      "CRYSTAL": "LT5",
       "SMP": "-"
     }
   },
@@ -213,8 +213,8 @@
       "UHC": "-",
       "SWORD": "LT3",
       "AXE": "-",
-      "DIAPOT": "-",
-      "NETHPOT": "-",
+      "DIAPOT": "LT3",
+      "NETHPOT": "HT5",
       "MAZO": "HT4",
       "CRYSTAL": "HT4",
       "SMP": "-"
