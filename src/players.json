@@ -1,4 +1,17 @@
 [
+           {
+    "name": "sword_17",
+    "modes": {
+      "UHC": "-",
+      "SWORD": "-",
+      "AXE": "-",
+      "DIAPOT": "-",
+      "NETHPOT": "-",
+      "MAZO": "-",
+      "CRYSTAL": "HT5",
+      "SMP": "-"
+    }
+  },
           {
     "name": "CldVx",
     "modes": {
@@ -203,7 +216,7 @@
       "DIAPOT": "-",
       "NETHPOT": "-",
       "MAZO": "HT4",
-      "CRYSTAL": "LT3",
+      "CRYSTAL": "HT4",
       "SMP": "-"
     }
   },
