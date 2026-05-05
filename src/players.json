@@ -1,4 +1,17 @@
 [
+            {
+    "name": "FachexNob",
+    "modes": {
+      "UHC": "-",
+      "SWORD": "-",
+      "AXE": "-",
+      "DIAPOT": "-",
+      "NETHPOT": "-",
+      "MAZO": "-",
+      "CRYSTAL": "-",
+      "SMP": "-"
+    }
+  },
            {
     "name": "sword_17",
     "modes": {
