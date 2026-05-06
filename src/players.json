@@ -1,4 +1,30 @@
 [
+             {
+    "name": "Dangeryoss_",
+    "modes": {
+      "UHC": "-",
+      "SWORD": "LT5",
+      "AXE": "-",
+      "DIAPOT": "-",
+      "NETHPOT": "-",
+      "MAZO": "-",
+      "CRYSTAL": "-",
+      "SMP": "-"
+    }
+  },
+             {
+    "name": "jugador_pojav",
+    "modes": {
+      "UHC": "-",
+      "SWORD": "LT5",
+      "AXE": "-",
+      "DIAPOT": "-",
+      "NETHPOT": "-",
+      "MAZO": "-",
+      "CRYSTAL": "-",
+      "SMP": "-"
+    }
+  },
             {
     "name": "FachexNob",
     "modes": {
@@ -458,11 +484,11 @@
     "name": "pepeprouwu",
     "modes": {
       "UHC": "-",
-      "SWORD": "-",
+      "SWORD": "LT3",
       "AXE": "-",
       "DIAPOT": "-",
       "NETHPOT": "-",
-      "MAZO": "LT3",
+      "MAZO": "LT4",
       "CRYSTAL": "-",
       "SMP": "-"
     }
@@ -614,7 +640,7 @@
     "name": "Darinhooo",
     "modes": {
       "UHC": "LT5",
-      "SWORD": "-",
+      "SWORD": "LT5",
       "AXE": "-",
       "DIAPOT": "-",
       "NETHPOT": "-",
