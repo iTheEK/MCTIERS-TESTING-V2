@@ -1,4 +1,17 @@
 [
+     {
+    "name": "Serevyn_",
+    "modes": {
+      "UHC": "-",
+      "SWORD": "-",
+      "AXE": "-",
+      "DIAPOT": "-",
+      "NETHPOT": "-",
+      "MAZO": "LT4",
+      "CRYSTAL": "-",
+      "SMP": "-"
+    }
+  },
     {
     "name": "Kleveri_",
     "modes": {
@@ -211,7 +224,7 @@
     "name": "totitodiaa",
     "modes": {
       "UHC": "-",
-      "SWORD": "LT5",
+      "SWORD": "LT4",
       "AXE": "-",
       "DIAPOT": "-",
       "NETHPOT": "-",
@@ -572,10 +585,10 @@
     }
   },
          {
-    "name": "PouSupremo_",
+    "name": "yNeoo",
     "modes": {
       "UHC": "-",
-      "SWORD": "-",
+      "SWORD": "LT3",
       "AXE": "-",
       "DIAPOT": "-",
       "NETHPOT": "LT3",
