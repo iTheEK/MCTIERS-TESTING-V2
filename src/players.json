@@ -1,4 +1,69 @@
 [
+      {
+    "name": "anibal1597",
+    "modes": {
+      "UHC": "-",
+      "SWORD": "LT3",
+      "AXE": "-",
+      "DIAPOT": "-",
+      "NETHPOT": "-",
+      "MAZO": "-",
+      "CRYSTAL": "-",
+      "SMP": "-"
+    }
+  },
+      {
+    "name": "gilipuertas",
+    "modes": {
+      "UHC": "-",
+      "SWORD": "-",
+      "AXE": "-",
+      "DIAPOT": "-",
+      "NETHPOT": "-",
+      "MAZO": "-",
+      "CRYSTAL": "-",
+      "SMP": "-"
+    }
+  },
+      {
+    "name": "lacabrafer",
+    "modes": {
+      "UHC": "-",
+      "SWORD": "HT5",
+      "AXE": "-",
+      "DIAPOT": "-",
+      "NETHPOT": "-",
+      "MAZO": "-",
+      "CRYSTAL": "-",
+      "SMP": "-"
+    }
+  },
+      {
+    "name": "Chit_Edxr",
+    "modes": {
+      "UHC": "HT5",
+      "SWORD": "-",
+      "AXE": "-",
+      "DIAPOT": "-",
+      "NETHPOT": "-",
+      "MAZO": "-",
+      "CRYSTAL": "-",
+      "SMP": "-"
+    }
+  },
+      {
+    "name": "Foller_MC",
+    "modes": {
+      "UHC": "LT3",
+      "SWORD": "-",
+      "AXE": "-",
+      "DIAPOT": "-",
+      "NETHPOT": "-",
+      "MAZO": "-",
+      "CRYSTAL": "-",
+      "SMP": "-"
+    }
+  },
      {
     "name": "Serevyn_",
     "modes": {
@@ -94,7 +159,7 @@
     "name": "CldVx",
     "modes": {
       "UHC": "-",
-      "SWORD": "-",
+      "SWORD": "LT3",
       "AXE": "-",
       "DIAPOT": "-",
       "NETHPOT": "-",
@@ -106,7 +171,7 @@
           {
     "name": "bruxis2022",
     "modes": {
-      "UHC": "LT4",
+      "UHC": "HT4",
       "SWORD": "HT4",
       "AXE": "-",
       "DIAPOT": "-",
