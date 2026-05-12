@@ -1,5 +1,18 @@
 [
        {
+    "name": "iKissMe_",
+    "modes": {
+      "UHC": "-",
+      "SWORD": "LT3",
+      "AXE": "HT4",
+      "DIAPOT": "-",
+      "NETHPOT": "LT3",
+      "MAZO": "-",
+      "CRYSTAL": "LT4",
+      "SMP": "-"
+    }
+  },
+       {
     "name": "3VeLyzz",
     "modes": {
       "UHC": "-",
