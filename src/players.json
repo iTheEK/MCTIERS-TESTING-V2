@@ -1,18 +1,5 @@
 [
     {
-    "name": "Chit_Edxr",
-    "modes": {
-      "UHC": "-",
-      "SWORD": "-",
-      "AXE": "-",
-      "DIAPOT": "-",
-      "NETHPOT": "-",
-      "MAZO": "LT5",
-      "CRYSTAL": "-",
-      "SMP": "-"
-    }
-  },
-    {
     "name": "egox_",
     "modes": {
       "UHC": "-",
@@ -280,7 +267,7 @@
       "AXE": "-",
       "DIAPOT": "-",
       "NETHPOT": "-",
-      "MAZO": "-",
+      "MAZO": "LT5",
       "CRYSTAL": "-",
       "SMP": "-"
     }
