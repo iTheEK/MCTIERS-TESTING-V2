@@ -273,19 +273,6 @@
     }
   },
       {
-    "name": "Chit_Edxr",
-    "modes": {
-      "UHC": "HT5",
-      "SWORD": "-",
-      "AXE": "-",
-      "DIAPOT": "-",
-      "NETHPOT": "-",
-      "MAZO": "-",
-      "CRYSTAL": "-",
-      "SMP": "-"
-    }
-  },
-      {
     "name": "Foller_MC",
     "modes": {
       "UHC": "LT3",
@@ -569,21 +556,8 @@
       "MAZO": "-",
       "CRYSTAL": "LT5",
       "SMP": "LT5"
-    }
-  },
-        {
-    "name": "Itz_Eder",
-    "modes": {
-      "UHC": "-",
-      "SWORD": "LT3",
-      "AXE": "-",
-      "DIAPOT": "LT3",
-      "NETHPOT": "HT5",
-      "MAZO": "LT4",
-      "CRYSTAL": "HT4",
-      "SMP": "-"
-    }
-  },
+        }
+    },
        {
     "name": "DylannEz",
     "modes": {
