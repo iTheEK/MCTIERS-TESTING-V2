@@ -1,4 +1,95 @@
 [
+     {
+    "name": "YoPeroLageado",
+    "modes": {
+      "UHC": "-",
+      "SWORD": "LT5",
+      "AXE": "-",
+      "DIAPOT": "-",
+      "NETHPOT": "-",
+      "MAZO": "-",
+      "CRYSTAL": "HT4",
+      "SMP": "-"
+    }
+  },
+     {
+    "name": "PolloDRokys",
+    "modes": {
+      "UHC": "-",
+      "SWORD": "HT5",
+      "AXE": "-",
+      "DIAPOT": "-",
+      "NETHPOT": "-",
+      "MAZO": "-",
+      "CRYSTAL": "-",
+      "SMP": "-"
+    }
+  },
+     {
+    "name": "BastilzeriaNN",
+    "modes": {
+      "UHC": "-",
+      "SWORD": "LT4",
+      "AXE": "-",
+      "DIAPOT": "-",
+      "NETHPOT": "-",
+      "MAZO": "-",
+      "CRYSTAL": "-",
+      "SMP": "-"
+    }
+  },
+     {
+    "name": "ItsPuchenkoYT",
+    "modes": {
+      "UHC": "-",
+      "SWORD": "-",
+      "AXE": "-",
+      "DIAPOT": "-",
+      "NETHPOT": "-",
+      "MAZO": "HT5",
+      "CRYSTAL": "-",
+      "SMP": "-"
+    }
+  },
+     {
+    "name": "Brtxns_",
+    "modes": {
+      "UHC": "LT4",
+      "SWORD": "-",
+      "AXE": "-",
+      "DIAPOT": "-",
+      "NETHPOT": "-",
+      "MAZO": "-",
+      "CRYSTAL": "-",
+      "SMP": "-"
+    }
+  },
+     {
+    "name": "Zeycristo",
+    "modes": {
+      "UHC": "-",
+      "SWORD": "HT5",
+      "AXE": "-",
+      "DIAPOT": "-",
+      "NETHPOT": "-",
+      "MAZO": "-",
+      "CRYSTAL": "-",
+      "SMP": "-"
+    }
+  },
+     {
+    "name": "Chit_Edxr",
+    "modes": {
+      "UHC": "-",
+      "SWORD": "LT3",
+      "AXE": "-",
+      "DIAPOT": "LT3",
+      "NETHPOT": "-",
+      "MAZO": "LT5",
+      "CRYSTAL": "-",
+      "SMP": "-"
+    }
+  },
     {
     "name": "egox_",
     "modes": {
@@ -432,7 +523,7 @@
     "name": "JoshuaByoo",
     "modes": {
       "UHC": "-",
-      "SWORD": "LT4",
+      "SWORD": "LT4    ",
       "AXE": "-",
       "DIAPOT": "-",
       "NETHPOT": "-",
@@ -510,7 +601,7 @@
     "name": "HazyMend3r",
     "modes": {
       "UHC": "-",
-      "SWORD": "LT5",
+      "SWORD": "HT5",
       "AXE": "-",
       "DIAPOT": "-",
       "NETHPOT": "-",
@@ -689,10 +780,10 @@
     }
   },
          {
-    "name": "Leolgve",
+    "name": "LeoLgVe",
     "modes": {
       "UHC": "-",
-      "SWORD": "-",
+      "SWORD": "LT4",
       "AXE": "-",
       "DIAPOT": "-",
       "NETHPOT": "-",
