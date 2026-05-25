@@ -1,11 +1,24 @@
 [
+        {
+    "name": "Jam3r1246",
+    "modes": {
+      "UHC": "-",
+      "SWORD": "-",
+      "AXE": "-",
+      "DIAPOT": "-",
+      "NETHPOT": "-",
+      "MAZO": "-",
+      "CRYSTAL": "LT5",
+      "SMP": "-"
+    }
+  },
        {
     "name": "siemprelloro",
     "modes": {
-      "UHC": "-",
+      "UHC": "LT4",
       "SWORD": "LT5",
       "AXE": "-",
-      "DIAPOT": "-",
+      "DIAPOT": "LT3",
       "NETHPOT": "-",
       "MAZO": "-",
       "CRYSTAL": "HT4",
@@ -112,7 +125,7 @@
       "DIAPOT": "LT3",
       "NETHPOT": "-",
       "MAZO": "LT5",
-      "CRYSTAL": "-",
+      "CRYSTAL": "LT4",
       "SMP": "-"
     }
   },
