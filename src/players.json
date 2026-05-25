@@ -116,19 +116,6 @@
       "SMP": "-"
     }
   },
-     {
-    "name": "Chit_Edxr",
-    "modes": {
-      "UHC": "-",
-      "SWORD": "LT3",
-      "AXE": "-",
-      "DIAPOT": "LT3",
-      "NETHPOT": "-",
-      "MAZO": "LT5",
-      "CRYSTAL": "LT4",
-      "SMP": "-"
-    }
-  },
     {
     "name": "egox_",
     "modes": {
