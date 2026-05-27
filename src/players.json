@@ -150,7 +150,7 @@
       "AXE": "-",
       "DIAPOT": "-",
       "NETHPOT": "-",
-      "MAZO": "-",
+      "MAZO": "LT5",
       "CRYSTAL": "-",
       "SMP": "-"
     }
@@ -476,7 +476,7 @@
       "DIAPOT": "-",
       "NETHPOT": "-",
       "MAZO": "-",
-      "CRYSTAL": "LT5",
+      "CRYSTAL": "HT5",
       "SMP": "-"
     }
   },
@@ -1113,7 +1113,7 @@
       "DIAPOT": "HT4",
       "NETHPOT": "-",
       "MAZO": "HT4",
-      "CRYSTAL": "HT4",
+      "CRYSTAL": "LT4",
       "SMP": "-"
     }
   },
