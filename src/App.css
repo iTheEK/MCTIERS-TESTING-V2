@@ -446,8 +446,9 @@ body {
 }
 
 /* ===========================
-   DESTELLO DIAGONAL (LEADERBOARD)
+   DESTELLO DIAGONAL FINAL REAL
 =========================== */
+
 .lb-rank-banner.rank-1,
 .lb-rank-banner.rank-2,
 .lb-rank-banner.rank-3 {
@@ -460,16 +461,43 @@ body {
 .lb-rank-banner.rank-3::before {
   content: "";
   position: absolute;
+
   width: 14px;
   height: 140%;
+
   background: rgba(255, 255, 255, 0.55);
   filter: blur(5px);
-  transform: rotate(25deg);
+
+  /* NUEVA DIRECCIÓN DEL DESTELLO */
+  transform: rotate(-25deg);
+
   top: -20%;
-  left: -30%;
-  animation: slashMove 2.5s ease-in-out infinite;
+  left: 30%;
+
+  animation: slashMove 2.8s ease-in-out infinite;
   pointer-events: none;
   z-index: 5;
+}
+
+@keyframes slashMove {
+  0% {
+    transform: translate(30%, -30%) rotate(-25deg);
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  40% {
+    transform: translate(-30%, 30%) rotate(-25deg);
+    opacity: 0.9;
+  }
+  60% {
+    opacity: 0;
+  }
+  100% {
+    transform: translate(-30%, 30%) rotate(-25deg);
+    opacity: 0;
+  }
 }
 
 .lb-rank-banner * {
@@ -477,74 +505,8 @@ body {
   z-index: 2;
 }
 
-/* ===========================
-   DESTELLO DIAGONAL (MODAL)
-=========================== */
-.pm-rank-banner.rank-1,
-.pm-rank-banner.rank-2,
-.pm-rank-banner.rank-3 {
-  position: relative;
-  overflow: hidden;
-}
-
-.pm-rank-banner.rank-1::before,
-.pm-rank-banner.rank-2::before,
-.pm-rank-banner.rank-3::before {
-  content: "";
-  position: absolute;
-  width: 14px;
-  height: 140%;
-  background: rgba(255, 255, 255, 0.55);
-  filter: blur(5px);
-  transform: rotate(25deg);
-  top: -20%;
-  left: -30%;
-  animation: slashMove 2.5s ease-in-out infinite;
-  pointer-events: none;
-  z-index: 5;
-}
-
-.pm-rank-banner * {
-  position: relative;
-  z-index: 2;
-}
-
-/* ===========================
-   OVERALL BANNER (MISMO COLOR QUE EL RANK)
-=========================== */
-.pm-overall-banner {
-  background: #ffcc33;
-  padding: 12px 20px;
-  border-radius: 12px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 18px;
-  font-weight: 800;
-  color: #000;
-  margin-bottom: 16px;
-}
-
-/* ===========================
-   ANIMACIÓN DESTELLO
-=========================== */
-@keyframes slashMove {
-  0% {
-    transform: translate(-30%, -30%) rotate(25deg);
-    opacity: 0;
-  }
-  10% {
-    opacity: 1;
-  }
-  40% {
-    transform: translate(30%, 30%) rotate(25deg);
-    opacity: 0.9;
-  }
-  60% {
-    opacity: 0;
-  }
-  100% {
-    transform: translate(30%, 30%) rotate(25deg);
-    opacity: 0;
-  }
+.lb-rank-banner.rank-1::before,
+.lb-rank-banner.rank-2::before,
+.lb-rank-banner.rank-3::before {
+  animation-duration: 2.5s;
 }
