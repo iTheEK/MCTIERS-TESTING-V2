@@ -21,17 +21,17 @@ body {
 .header {
   width: 100%;
   display: flex;
-  justify-content: center;   /* Centra horizontal */
-  align-items: center;       /* Centra vertical */
+  justify-content: center;
+  align-items: center;
   margin-top: 20px;
 }
 
 .header-title {
-  color: #ffffff;            /* Blanco */
-  font-size: 40px;           /* GRANDE */
-  font-weight: 800;          /* Más estilo */
-  letter-spacing: 3px;       /* Separación elegante */
-  text-shadow: 0 0 12px rgba(255,255,255,0.5); /* Glow */
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: 800;
+  letter-spacing: 3px;
+  text-shadow: 0 0 12px rgba(255,255,255,0.5);
 }
 
 /* ===========================
@@ -63,16 +63,16 @@ body {
 =========================== */
 .lb-container {
   width: 100%;
-  max-width: 1300px;   /* MÁS ANCHO, estilo foto */
+  max-width: 1300px;
   margin: 0 auto;
-  margin-top: 32px;    /* un poco más de aire */
+  margin-top: 32px;
 }
 
 .lb-row {
   display: flex;
   align-items: center;
-  gap: 34px;            /* más separación */
-  padding: 26px 32px;   /* más alto y más ancho */
+  gap: 34px;
+  padding: 26px 32px;
   background: #111;
   border-bottom: 1px solid #1f1f1f;
   cursor: pointer;
@@ -339,8 +339,6 @@ body {
 /* ===========================
    MODAL — COLORES IGUALES AL LEADERBOARD
 =========================== */
-
-/* CÍRCULO DEL TIER */
 .pm-tier-circle.lt5, .pm-tier-circle.lt4 { background: #6e6e6e; }
 .pm-tier-text.lt5, .pm-tier-text.lt4 { color: #b5b5b5; }
 
@@ -365,7 +363,6 @@ body {
 .pm-tier-text.lt1 { color: #ffcc33; }
 .pm-tier-text.ht1 { color: #ffd966; }
 
-/* ICONOS */
 .pm-icon-circle.lt5, .pm-icon-circle.lt4 { color: #b5b5b5; }
 .pm-icon-circle.ht4 { color: #d0d0d0; }
 
@@ -379,33 +376,8 @@ body {
 .pm-icon-circle.ht1 { color: #eacb52; }
 
 /* ===========================
-   RETIRED — MODAL (FIX FINAL)
+   AVATAR BG
 =========================== */
-
-/* Fondo gris oscuro igual LT5/LT4 */
-.pm-tier-circle.rlt2,
-.pm-tier-circle.rht2,
-.pm-tier-circle.rlt1,
-.pm-tier-circle.rht1 {
-  background: #6e6e6e;
-}
-
-/* Icono gris oscuro */
-.pm-icon-circle.rlt2,
-.pm-icon-circle.rht2,
-.pm-icon-circle.rlt1,
-.pm-icon-circle.rht1 {
-  color: #6e6e6e;
-}
-
-/* Texto mantiene su color original */
-.pm-tier-text.rlt2 { color: #bfbfbf; }  /* LT2 */
-.pm-tier-text.rht2 { color: #dcdcdc; }  /* HT2 */
-
-.pm-tier-text.rlt1 { color: #ffcc33; }  /* LT1 */
-.pm-tier-text.rht1 { color: #ffd966; }  /* HT1 */
-
-/* Fondo detrás de la skin según posición */
 .lb-avatar-bg {
   width: 52px;
   height: 52px;
@@ -415,7 +387,6 @@ body {
   align-items: center;
 }
 
-/* Colores estilo top */
 .lb-avatar-bg.rank-1 {
   background: #ffcc33;
   box-shadow: 0 0 14px #ffcc33;
@@ -442,150 +413,40 @@ body {
   box-shadow: 0 0 10px #000;
 }
 
-/* Ajuste del avatar dentro del fondo */
-.lb-avatar {
-  width: 40px;
-  height: 40px;
-  border-radius: 6px;
-}
-
-/* Banner de rank + skin 3D */
+/* ===========================
+   BANNER RANK
+=========================== */
 .lb-rank-banner {
   display: flex;
   align-items: center;
-  gap: 14px;            /* más espacio entre número y skin */
-  padding: 10px 20px;   /* más alto y más ancho */
-  border-radius: 14px;  /* más suave */
-  min-width: 220px;     /* estilo EXACTO de la foto */
+  gap: 14px;
+  padding: 10px 20px;
+  border-radius: 14px;
+  min-width: 220px;
 }
 
-/* Colores según posición (estilo imagen) */
-.lb-rank-banner.rank-1 {
-  background: #ffcc33;
-}
+.lb-rank-banner.rank-1 { background: #ffcc33; }
+.lb-rank-banner.rank-2 { background: #d0d0d0; }
+.lb-rank-banner.rank-3 { background: #c47a2c; }
 
-.lb-rank-banner.rank-2 {
-  background: #d0d0d0;
-}
-
-.lb-rank-banner.rank-3 {
-  background: #c47a2c;
-}
-
-.lb-rank-banner.rank-4,
-.lb-rank-banner.rank-5,
-.lb-rank-banner.rank-6,
-.lb-rank-banner.rank-7,
-.lb-rank-banner.rank-8,
-.lb-rank-banner.rank-9,
-.lb-rank-banner.rank-10 {
-  background: #2a2a2a;
-}
-
-/* Número dentro del banner (perfil y leaderboard) */
 .lb-rank-number,
 .pm-rank-number {
   font-size: 22px;
   font-weight: 900;
-  color: #ffffff; /* SIEMPRE BLANCO */
+  color: #ffffff;
 }
 
-/* Skin 3D */
+/* ===========================
+   SKIN 3D
+=========================== */
 .lb-avatar-3d {
-  width: 62px;          /* tamaño perfecto estilo foto */
+  width: 62px;
   height: 62px;
   image-rendering: pixelated;
 }
-/* ===========================
-   POSITION BANNER (MODAL)
-=========================== */
-
-.pm-rank-banner {
-  margin-top: 18px;
-  margin-bottom: 12px;
-  padding: 12px 20px;
-  border-radius: 12px;
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  justify-content: center;
-}
-
-/* Colores según posición (IGUAL QUE EL LEADERBOARD) */
-.pm-rank-banner.rank-1 {
-  background: #ffcc33;
-}
-
-.pm-rank-banner.rank-2 {
-  background: #d0d0d0;
-}
-
-.pm-rank-banner.rank-3 {
-  background: #c47a2c;
-}
-
-.pm-rank-banner.rank-4,
-.pm-rank-banner.rank-5,
-.pm-rank-banner.rank-6,
-.pm-rank-banner.rank-7,
-.pm-rank-banner.rank-8,
-.pm-rank-banner.rank-9,
-.pm-rank-banner.rank-10 {
-  background: #2a2a2a;
-}
-
-/* Número */
-.pm-rank-number {
-  font-size: 32px;
-  font-weight: 900;
-  color: white;
-}
-
-/* Trofeo */
-.pm-rank-trophy {
-  font-size: 26px;
-}
-
-/* Texto */
-.pm-rank-text {
-  font-size: 16px;
-  font-weight: 700;
-  color: white;
-  opacity: 0.95;
-}
 
 /* ===========================
-   HT5 (igual que LT5/LT4)
-=========================== */
-
-/* Leaderboard */
-.lb-tier-circle.ht5 {
-  background: #6e6e6e;
-}
-
-.lb-tier-text.ht5 {
-  color: #b5b5b5;
-}
-
-.lb-icon-circle.ht5 {
-  color: #b5b5b5;
-}
-
-/* Modal */
-.pm-tier-circle.ht5 {
-  background: #6e6e6e;
-}
-
-.pm-tier-text.ht5 {
-  color: #b5b5b5;
-}
-
-.pm-icon-circle.ht5 {
-  color: #b5b5b5;
-}
-
-/* ===========================
-   DESTELLO DIAGONAL FINAL REAL
+   DESTELLO DIAGONAL FINAL
 =========================== */
 
 .lb-rank-banner.rank-1,
@@ -602,8 +463,8 @@ body {
   position: absolute;
 
   /* Línea diagonal visible */
-  width: 14px;          
-  height: 140%;         
+  width: 14px;
+  height: 140%;
 
   background: rgba(255, 255, 255, 0.55);
   filter: blur(5px);
@@ -615,14 +476,14 @@ body {
   top: -20%;
   left: -30%;
 
-  animation: slashMove 2.8s ease-in-out infinite;
-  pointer-events: none;
+  /* RITMO INTEGRADO AQUÍ */
+  animation: slashMove 2.5s ease-in-out infinite;
 
-  /* Asegurar que el destello esté arriba */
+  pointer-events: none;
   z-index: 5;
 }
 
-/* Asegurar que el contenido del banner quede debajo del destello */
+/* contenido debajo del destello */
 .lb-rank-banner * {
   position: relative;
   z-index: 2;
@@ -647,11 +508,4 @@ body {
     transform: translate(30%, 30%) rotate(25deg);
     opacity: 0;
   }
-}
-
-/* Ritmo */
-.lb-rank-banner.rank-1::before,
-.lb-rank-banner.rank-2::before,
-.lb-rank-banner.rank-3::before {
-  animation-duration: 2.5s;
 }
