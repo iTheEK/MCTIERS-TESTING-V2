@@ -585,7 +585,7 @@ body {
 }
 
 /* ===========================
-   DESTELLO DIAGONAL PERFECTO
+   DESTELLO DIAGONAL FINAL
 =========================== */
 
 .lb-rank-banner.rank-1,
@@ -601,23 +601,25 @@ body {
   content: "";
   position: absolute;
 
-  /* Línea diagonal visible SIEMPRE */
-  width: 14px;          /* ← un poquito más gruesa */
-  height: 160%;         /* ← suficiente para cruzar el banner */
+  /* Línea gruesa y visible */
+  width: 12px;          /* ← grosor */
+  height: 200%;         /* ← largo suficiente */
 
-  top: -80%;            /* ← empieza ARRIBA */
-  left: -20%;           /* ← empieza a la IZQUIERDA */
+  background: rgba(255, 255, 255, 0.55);
+  filter: blur(6px);
 
-  background: rgba(255, 255, 255, 0.55); /* brillo suave */
-  filter: blur(5px);                      /* glow elegante */
+  /* INCLINACIÓN EXACTA tipo "/" */
+  transform: rotate(25deg);
 
-  transform: rotate(25deg); /* inclinación tipo "/" */
+  /* POSICIÓN INICIAL: ARRIBA IZQUIERDA */
+  top: -100%;
+  left: -50%;
 
-  animation: shineSlashDown 2.8s ease-in-out infinite;
+  animation: slashMove 2.8s ease-in-out infinite;
   pointer-events: none;
 }
 
-@keyframes shineSlashDown {
+@keyframes slashMove {
   0% {
     transform: translate(-40%, -40%) rotate(25deg); /* ARRIBA IZQUIERDA */
     opacity: 0;
