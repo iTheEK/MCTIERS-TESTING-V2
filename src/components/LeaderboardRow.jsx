@@ -24,13 +24,14 @@ export default function LeaderboardRow({ player, rank, onClick }) {
     <div className={`lb-row rank-${rank}`} onClick={onClick}>
       {/* Banner de rank + skin 3D */}
       <div className={`lb-rank-banner rank-${rank}`}>
-        <span className="lb-rank-number">{rank}</span>
-        <img
-          src={`https://render.crafty.gg/3d/bust/${player.name}`}
-          alt={player.name}
-          className="lb-avatar-3d"
-        />
-      </div>
+  <span className="lb-rank-number">{rank}</span>
+</div>
+
+<img
+  src={`https://render.crafty.gg/3d/bust/${player.name}`}
+  alt={player.name}
+  className="lb-avatar-3d"
+/>
 
       {/* Nombre */}
       <span className="lb-name">{player.name}</span>
