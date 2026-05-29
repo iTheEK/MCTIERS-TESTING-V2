@@ -585,7 +585,7 @@ body {
 }
 
 /* ===========================
-   DESTELLO DIAGONAL FINAL
+   DESTELLO DIAGONAL FINAL REAL
 =========================== */
 
 .lb-rank-banner.rank-1,
@@ -601,19 +601,19 @@ body {
   content: "";
   position: absolute;
 
-  /* Línea gruesa y visible */
-  width: 12px;          /* ← grosor */
-  height: 200%;         /* ← largo suficiente */
+  /* Línea diagonal visible */
+  width: 14px;          /* grosor */
+  height: 140%;         /* largo perfecto para banners bajos */
 
   background: rgba(255, 255, 255, 0.55);
-  filter: blur(6px);
+  filter: blur(5px);
 
-  /* INCLINACIÓN EXACTA tipo "/" */
+  /* inclinación tipo "/" */
   transform: rotate(25deg);
 
-  /* POSICIÓN INICIAL: ARRIBA IZQUIERDA */
-  top: -100%;
-  left: -50%;
+  /* posición inicial dentro del área visible */
+  top: -20%;
+  left: -30%;
 
   animation: slashMove 2.8s ease-in-out infinite;
   pointer-events: none;
@@ -621,21 +621,21 @@ body {
 
 @keyframes slashMove {
   0% {
-    transform: translate(-40%, -40%) rotate(25deg); /* ARRIBA IZQUIERDA */
+    transform: translate(-30%, -30%) rotate(25deg); /* ARRIBA IZQUIERDA */
     opacity: 0;
   }
   10% {
     opacity: 1;
   }
   40% {
-    transform: translate(40%, 40%) rotate(25deg); /* ABAJO DERECHA */
+    transform: translate(30%, 30%) rotate(25deg); /* ABAJO DERECHA */
     opacity: 0.9;
   }
   60% {
     opacity: 0;
   }
   100% {
-    transform: translate(40%, 40%) rotate(25deg);
+    transform: translate(30%, 30%) rotate(25deg);
     opacity: 0;
   }
 }
