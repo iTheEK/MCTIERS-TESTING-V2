@@ -583,9 +583,8 @@ body {
 .pm-icon-circle.ht5 {
   color: #b5b5b5;
 }
-
 /* ===========================
-   DESTELLO SOLO EN EL BANNER
+   DESTELLO DIAGONAL EN EL BANNER
 =========================== */
 
 .lb-rank-banner.rank-1,
@@ -595,44 +594,42 @@ body {
   overflow: hidden;
 }
 
-/* Capa del destello */
 .lb-rank-banner.rank-1::before,
 .lb-rank-banner.rank-2::before,
 .lb-rank-banner.rank-3::before {
   content: "";
   position: absolute;
-  left: 0;
-  top: -100%; /* empieza arriba */
-  width: 100%;
-  height: 100%;
+  width: 150%;   /* más grande para cubrir la diagonal */
+  height: 150%;
+  top: -100%;
+  left: -100%;
   background: linear-gradient(
-    to bottom,
+    135deg,
     rgba(255, 255, 255, 0) 0%,
     rgba(255, 255, 255, 0.45) 50%,
     rgba(255, 255, 255, 0) 100%
   );
+  animation: shine-diagonal 2.8s ease-in-out infinite;
   pointer-events: none;
-  animation: banner-shine 2.8s ease-in-out infinite;
 }
 
-/* Animación */
-@keyframes banner-shine {
+@keyframes shine-diagonal {
   0% {
-    top: -100%;
+    transform: translate(-50%, -50%);
     opacity: 0;
   }
   10% {
     opacity: 1;
   }
   40% {
-    top: 100%; /* baja por el banner */
+    transform: translate(50%, 50%); /* baja en diagonal */
     opacity: 0.9;
   }
   60% {
     opacity: 0;
   }
   100% {
-    top: 100%;
+    transform: translate(50%, 50%);
     opacity: 0;
   }
 }
