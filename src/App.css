@@ -602,8 +602,8 @@ body {
   position: absolute;
 
   /* Línea diagonal visible */
-  width: 14px;          /* grosor */
-  height: 140%;         /* largo perfecto para banners bajos */
+  width: 14px;          
+  height: 140%;         
 
   background: rgba(255, 255, 255, 0.55);
   filter: blur(5px);
@@ -617,18 +617,27 @@ body {
 
   animation: slashMove 2.8s ease-in-out infinite;
   pointer-events: none;
+
+  /* Asegurar que el destello esté arriba */
+  z-index: 5;
+}
+
+/* Asegurar que el contenido del banner quede debajo del destello */
+.lb-rank-banner * {
+  position: relative;
+  z-index: 2;
 }
 
 @keyframes slashMove {
   0% {
-    transform: translate(-30%, -30%) rotate(25deg); /* ARRIBA IZQUIERDA */
+    transform: translate(-30%, -30%) rotate(25deg);
     opacity: 0;
   }
   10% {
     opacity: 1;
   }
   40% {
-    transform: translate(30%, 30%) rotate(25deg); /* ABAJO DERECHA */
+    transform: translate(30%, 30%) rotate(25deg);
     opacity: 0.9;
   }
   60% {
@@ -640,7 +649,9 @@ body {
   }
 }
 
-/* Ritmo distinto (opcional) */
-.lb-rank-banner.rank-1::before { animation-duration: 2.5s; }
-.lb-rank-banner.rank-2::before { animation-duration: 2.5s; }
-.lb-rank-banner.rank-3::before { animation-duration: 2.5s; }
+/* Ritmo */
+.lb-rank-banner.rank-1::before,
+.lb-rank-banner.rank-2::before,
+.lb-rank-banner.rank-3::before {
+  animation-duration: 2.5s;
+}
