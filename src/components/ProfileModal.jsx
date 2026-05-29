@@ -22,24 +22,29 @@ export default function ProfileModal({ player, onClose }) {
       <div className="pm-card" onClick={(e) => e.stopPropagation()}>
 
         {/* AVATAR */}
-<img
-  src={`https://render.crafty.gg/3d/bust/${player.name}`}
-  onError={(e) => {
-    e.target.src = `https://mc-heads.net/avatar/${player.name}/100`;
-  }}
-  className="pm-avatar"
-/>
+        <img
+          src={`https://render.crafty.gg/3d/bust/${player.name}`}
+          onError={(e) => {
+            e.target.src = `https://mc-heads.net/avatar/${player.name}/100`;
+          }}
+          className="pm-avatar"
+        />
 
         {/* NOMBRE */}
         <h2 className="pm-name">{player.name}</h2>
 
-        {/* POSITION BANNER (ABAJO DEL NOMBRE) */}
-        <div className={`pm-rank-banner rank-${player.rank}`}>
+        {/* OVERALL BANNER (COLOR DEL RANK) */}
+        <div className={`pm-overall-banner rank-${player.rank}`}>
           <span className="pm-rank-number">{player.rank}.</span>
           <span className="pm-rank-trophy">🏆</span>
           <span className="pm-rank-text">
             OVERALL ({player.points} points)
           </span>
+        </div>
+
+        {/* BANNER DE RANK (DESTELLO) */}
+        <div className={`pm-rank-banner rank-${player.rank}`}>
+          <span className="pm-rank-number">{player.rank}</span>
         </div>
 
         {/* MODALIDADES */}
