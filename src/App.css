@@ -462,28 +462,23 @@ body {
   content: "";
   position: absolute;
 
-  /* Línea diagonal visible */
   width: 14px;
   height: 140%;
 
   background: rgba(255, 255, 255, 0.55);
   filter: blur(5px);
 
-  /* inclinación tipo "/" */
   transform: rotate(25deg);
 
-  /* posición inicial dentro del área visible */
   top: -20%;
   left: -30%;
 
-  /* RITMO INTEGRADO AQUÍ */
   animation: slashMove 2.5s ease-in-out infinite;
 
   pointer-events: none;
   z-index: 5;
 }
 
-/* contenido debajo del destello */
 .lb-rank-banner * {
   position: relative;
   z-index: 2;
@@ -508,7 +503,4 @@ body {
     transform: translate(30%, 30%) rotate(25deg);
     opacity: 0;
   }
-}
-
-/* ← ESTA LLAVE FINAL ES LA QUE TE FALTABA */
 }
