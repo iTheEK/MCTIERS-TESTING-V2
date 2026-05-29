@@ -585,7 +585,7 @@ body {
 }
 
 /* ===========================
-   DESTELLO DIAGONAL EMPINADO
+   DESTELLO DIAGONAL — LÍNEA DELGADA
 =========================== */
 
 .lb-rank-banner.rank-1,
@@ -600,21 +600,26 @@ body {
 .lb-rank-banner.rank-3::before {
   content: "";
   position: absolute;
-  width: 180%;   /* más grande para cubrir la diagonal */
-  height: 180%;
+
+  /* Línea delgada */
+  width: 8%;      /* ← grosor de la línea */
+  height: 180%;   /* ← larga para cubrir la diagonal */
+
   top: -120%;
   left: -40%;
+
   background: linear-gradient(
-    115deg,   /* ← ESTE ÁNGULO DA EXACTAMENTE EL EFECTO "/" */
+    115deg,
     rgba(255, 255, 255, 0) 0%,
-    rgba(255, 255, 255, 0.45) 50%,
+    rgba(255, 255, 255, 0.55) 50%,   /* ← brillo más fuerte pero concentrado */
     rgba(255, 255, 255, 0) 100%
   );
-  animation: shine-diagonal-strong 2.8s ease-in-out infinite;
+
+  animation: shine-line 2.8s ease-in-out infinite;
   pointer-events: none;
 }
 
-@keyframes shine-diagonal-strong {
+@keyframes shine-line {
   0% {
     transform: translate(-60%, -60%);
     opacity: 0;
@@ -623,7 +628,7 @@ body {
     opacity: 1;
   }
   40% {
-    transform: translate(60%, 60%); /* baja en diagonal empinada */
+    transform: translate(60%, 60%); /* baja en diagonal */
     opacity: 0.9;
   }
   60% {
