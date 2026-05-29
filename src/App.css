@@ -583,8 +583,9 @@ body {
 .pm-icon-circle.ht5 {
   color: #b5b5b5;
 }
+
 /* ===========================
-   DESTELLO DIAGONAL EN EL BANNER
+   DESTELLO DIAGONAL EMPINADO
 =========================== */
 
 .lb-rank-banner.rank-1,
@@ -599,37 +600,37 @@ body {
 .lb-rank-banner.rank-3::before {
   content: "";
   position: absolute;
-  width: 150%;   /* más grande para cubrir la diagonal */
-  height: 150%;
-  top: -100%;
-  left: -100%;
+  width: 180%;   /* más grande para cubrir la diagonal */
+  height: 180%;
+  top: -120%;
+  left: -40%;
   background: linear-gradient(
-    135deg,
+    115deg,   /* ← ESTE ÁNGULO DA EXACTAMENTE EL EFECTO "/" */
     rgba(255, 255, 255, 0) 0%,
     rgba(255, 255, 255, 0.45) 50%,
     rgba(255, 255, 255, 0) 100%
   );
-  animation: shine-diagonal 2.8s ease-in-out infinite;
+  animation: shine-diagonal-strong 2.8s ease-in-out infinite;
   pointer-events: none;
 }
 
-@keyframes shine-diagonal {
+@keyframes shine-diagonal-strong {
   0% {
-    transform: translate(-50%, -50%);
+    transform: translate(-60%, -60%);
     opacity: 0;
   }
   10% {
     opacity: 1;
   }
   40% {
-    transform: translate(50%, 50%); /* baja en diagonal */
+    transform: translate(60%, 60%); /* baja en diagonal empinada */
     opacity: 0.9;
   }
   60% {
     opacity: 0;
   }
   100% {
-    transform: translate(50%, 50%);
+    transform: translate(60%, 60%);
     opacity: 0;
   }
 }
