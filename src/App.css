@@ -585,7 +585,7 @@ body {
 }
 
 /* ===========================
-   DESTELLO DIAGONAL REAL — MÁS GRUESO Y DESDE ARRIBA
+   DESTELLO DIAGONAL PERFECTO
 =========================== */
 
 .lb-rank-banner.rank-1,
@@ -601,17 +601,17 @@ body {
   content: "";
   position: absolute;
 
-  /* Línea diagonal visible */
-  width: 10px;          /* ← un poquito más gruesa */
-  height: 220%;         /* ← larga para cubrir la diagonal completa */
+  /* Línea diagonal visible SIEMPRE */
+  width: 14px;          /* ← un poquito más gruesa */
+  height: 160%;         /* ← suficiente para cruzar el banner */
 
-  top: -120%;           /* ← empieza ARRIBA */
-  left: -40%;           /* ← empieza a la IZQUIERDA */
+  top: -80%;            /* ← empieza ARRIBA */
+  left: -20%;           /* ← empieza a la IZQUIERDA */
 
-  background: rgba(255, 255, 255, 0.65); /* brillo suave */
-  filter: blur(6px);                      /* glow elegante */
+  background: rgba(255, 255, 255, 0.55); /* brillo suave */
+  filter: blur(5px);                      /* glow elegante */
 
-  transform: rotate(25deg); /* inclinación EXACTA tipo "/" */
+  transform: rotate(25deg); /* inclinación tipo "/" */
 
   animation: shineSlashDown 2.8s ease-in-out infinite;
   pointer-events: none;
@@ -619,21 +619,21 @@ body {
 
 @keyframes shineSlashDown {
   0% {
-    transform: translate(-60%, -60%) rotate(25deg); /* ARRIBA IZQUIERDA */
+    transform: translate(-40%, -40%) rotate(25deg); /* ARRIBA IZQUIERDA */
     opacity: 0;
   }
   10% {
     opacity: 1;
   }
   40% {
-    transform: translate(60%, 60%) rotate(25deg); /* ABAJO DERECHA */
+    transform: translate(40%, 40%) rotate(25deg); /* ABAJO DERECHA */
     opacity: 0.9;
   }
   60% {
     opacity: 0;
   }
   100% {
-    transform: translate(60%, 60%) rotate(25deg);
+    transform: translate(40%, 40%) rotate(25deg);
     opacity: 0;
   }
 }
