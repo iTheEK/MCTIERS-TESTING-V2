@@ -446,63 +446,60 @@ body {
 }
 
 /* ===========================
-   DESTELLO DIAGONAL FINAL REAL
+   DESTELLO EN EL FONDO DEL AVATAR
 =========================== */
 
-.lb-rank-banner.rank-1,
-.lb-rank-banner.rank-2,
-.lb-rank-banner.rank-3 {
+.lb-avatar-bg {
   position: relative;
   overflow: hidden;
 }
 
-.lb-rank-banner.rank-1::before,
-.lb-rank-banner.rank-2::before,
-.lb-rank-banner.rank-3::before {
+.lb-avatar-bg::before {
   content: "";
   position: absolute;
 
-  width: 14px;
-  height: 140%;
+  width: 18px;
+  height: 160%;
 
   background: rgba(255, 255, 255, 0.55);
-  filter: blur(5px);
+  filter: blur(6px);
 
-  /* NUEVA DIRECCIÓN DEL DESTELLO */
-  transform: rotate(-25deg);
+  /* dirección del destello */
+  transform: rotate(25deg);
 
-  top: -20%;
-  left: 30%;
+  top: -30%;
+  left: -40%;
 
-  animation: slashMove 2.8s ease-in-out infinite;
+  animation: avatarSlash 2.8s ease-in-out infinite;
   pointer-events: none;
   z-index: 5;
 }
 
-@keyframes slashMove {
+@keyframes avatarSlash {
   0% {
-    transform: translate(30%, -30%) rotate(-25deg);
+    transform: translate(-40%, -40%) rotate(25deg);
     opacity: 0;
   }
   10% {
     opacity: 1;
   }
   40% {
-    transform: translate(-30%, 30%) rotate(-25deg);
+    transform: translate(40%, 40%) rotate(25deg);
     opacity: 0.9;
   }
   60% {
     opacity: 0;
   }
   100% {
-    transform: translate(-30%, 30%) rotate(-25deg);
+    transform: translate(40%, 40%) rotate(25deg);
     opacity: 0;
   }
 }
 
-.lb-rank-banner * {
+/* asegurar que el avatar quede encima */
+.lb-avatar-bg * {
   position: relative;
-  z-index: 2;
+  z-index: 10;
 }
 
 .lb-rank-banner.rank-1::before,
