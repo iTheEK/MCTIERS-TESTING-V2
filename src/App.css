@@ -585,7 +585,7 @@ body {
 }
 
 /* ===========================
-   DESTELLO DIAGONAL — LÍNEA REAL
+   DESTELLO DIAGONAL — LÍNEA VISIBLE SIEMPRE
 =========================== */
 
 .lb-rank-banner.rank-1,
@@ -601,40 +601,39 @@ body {
   content: "";
   position: absolute;
 
-  /* Línea fina visible */
-  width: 6px;          /* ← grosor REAL de la línea */
-  height: 180%;        /* ← larga para cubrir la diagonal */
+  /* Línea diagonal visible */
+  width: 12px;          /* ← grosor visible */
+  height: 200%;         /* ← largo suficiente */
+  
+  top: -60%;
+  left: -30%;
 
-  top: -40%;
-  left: -20%;
+  background: rgba(255, 255, 255, 0.7); /* ← línea clara */
+  filter: blur(6px);                    /* ← glow suave */
 
-  background: rgba(255, 255, 255, 0.45); /* ← línea sólida suave */
+  transform: rotate(28deg); /* ← inclinación EXACTA tipo "/" */
 
-  filter: blur(4px);   /* ← efecto glow suave sin exagerar */
-
-  transform: rotate(25deg); /* ← inclinación EXACTA tipo "/" */
-
-  animation: shine-line 2.8s ease-in-out infinite;
+  animation: shine-line-visible 2.8s ease-in-out infinite;
   pointer-events: none;
 }
 
-@keyframes shine-line {
+@keyframes shine-line-visible {
   0% {
-    transform: translate(-80%, -80%) rotate(25deg);
+    transform: translate(-80%, -80%) rotate(28deg);
     opacity: 0;
   }
   10% {
     opacity: 1;
   }
   40% {
-    transform: translate(80%, 80%) rotate(25deg); /* baja en diagonal */
+    transform: translate(80%, 80%) rotate(28deg); /* baja en diagonal */
     opacity: 0.9;
   }
   60% {
     opacity: 0;
   }
   100% {
-    transform: translate(80%, 80%) rotate(25deg);
+    transform: translate(80%, 80%) rotate(28deg);
     opacity: 0;
   }
 }
