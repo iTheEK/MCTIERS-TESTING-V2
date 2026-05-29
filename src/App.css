@@ -419,12 +419,12 @@ body {
 .lb-rank-banner {
   display: flex;
   align-items: center;
-  justify-content: center;
-  width: 90px;      /* tamaño real */
-  height: 60px;     /* altura real */
+  gap: 14px;
+  padding: 20px 20px;
   border-radius: 14px;
+  min-width: 220px;
   position: relative;
-  overflow: visible;
+  overflow: hidden;
 }
 
 .lb-avatar-3d {
@@ -443,7 +443,7 @@ body {
 .lb-rank-banner.rank-2,
 .lb-rank-banner.rank-3 {
   position: relative;
-  overflow: visible;
+  overflow: hidden;
 }
 
 .lb-rank-banner.rank-1::before,
@@ -453,7 +453,7 @@ body {
   position: absolute;
   top: -40%;
   left: -30%;
-  width: 60px;
+  width: 18px;
   height: 180%;
   background: rgba(255, 255, 255, 0.55);
   filter: blur(6px);
