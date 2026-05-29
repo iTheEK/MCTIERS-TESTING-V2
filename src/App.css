@@ -21,19 +21,17 @@ body {
 .header {
   width: 100%;
   display: flex;
-  justify-content: flex-start;
-  padding: 20px 30px;
-  box-sizing: border-box;
+  justify-content: center;   /* Centra horizontal */
+  align-items: center;       /* Centra vertical */
+  margin-top: 20px;
 }
 
 .header-title {
-  color: #ffffff;          /* Blanco */
-  text-align: center;      /* Centrado */
-  font-size: 28px;         /* Tamaño medio */
-  font-weight: 700;        /* Estilo fuerte */
-  margin-top: 20px;
-  letter-spacing: 2px;     /* Separación elegante */
-  text-shadow: 0 0 10px rgba(255,255,255,0.4); /* Glow suave */
+  color: #ffffff;            /* Blanco */
+  font-size: 40px;           /* GRANDE */
+  font-weight: 800;          /* Más estilo */
+  letter-spacing: 3px;       /* Separación elegante */
+  text-shadow: 0 0 12px rgba(255,255,255,0.5); /* Glow */
 }
 
 /* ===========================
