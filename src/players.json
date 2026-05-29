@@ -1,4 +1,43 @@
 [
+         {
+    "name": "zetapee",
+    "modes": {
+      "UHC": "-",
+      "SWORD": "-",
+      "AXE": "-",
+      "DIAPOT": "-",
+      "NETHPOT": "-",
+      "MAZO": "HT5",
+      "CRYSTAL": "-",
+      "SMP": "-"
+    }
+  },
+         {
+    "name": "JonSnowZz",
+    "modes": {
+      "UHC": "-",
+      "SWORD": "-",
+      "AXE": "-",
+      "DIAPOT": "-",
+      "NETHPOT": "-",
+      "MAZO": "HT5",
+      "CRYSTAL": "-",
+      "SMP": "-"
+    }
+  },
+         {
+    "name": "iTussinho",
+    "modes": {
+      "UHC": "-",
+      "SWORD": "LT3",
+      "AXE": "-",
+      "DIAPOT": "LT3",
+      "NETHPOT": "-",
+      "MAZO": "HT5",
+      "CRYSTAL": "-",
+      "SMP": "-"
+    }
+  },
         {
     "name": "Jam3r1246",
     "modes": {
@@ -631,7 +670,7 @@
       "AXE": "-",
       "DIAPOT": "-",
       "NETHPOT": "-",
-      "MAZO": "-",
+      "MAZO": "LT5",
       "CRYSTAL": "-",
       "SMP": "-"
     }
@@ -710,7 +749,7 @@
       "DIAPOT": "-",
       "NETHPOT": "-",
       "MAZO": "LT4",
-      "CRYSTAL": "-",
+      "CRYSTAL": "LT4",
       "SMP": "-"
     }
   },
@@ -813,7 +852,7 @@
       "AXE": "-",
       "DIAPOT": "-",
       "NETHPOT": "-",
-      "MAZO": "-",
+      "MAZO": "LT5",
       "CRYSTAL": "LT3",
       "SMP": "-"
     }
@@ -1073,7 +1112,7 @@
       "AXE": "-",
       "DIAPOT": "-",
       "NETHPOT": "-",
-      "MAZO": "LT5",
+      "MAZO": "HT5",
       "CRYSTAL": "-",
       "SMP": "-"
     }
@@ -1112,7 +1151,7 @@
       "AXE": "HT4",
       "DIAPOT": "HT4",
       "NETHPOT": "-",
-      "MAZO": "HT4",
+      "MAZO": "LT5",
       "CRYSTAL": "LT4",
       "SMP": "-"
     }
