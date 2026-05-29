@@ -71,7 +71,7 @@ body {
 .lb-row {
   display: flex;
   align-items: center;
-  gap: 34px;
+  gap: 14px;
   padding: 26px 32px;
   background: #111;
   border-bottom: 1px solid #1f1f1f;
@@ -414,15 +414,21 @@ body {
 }
 
 /* ===========================
-   BANNER RANK
+   BANNER RANK (UNIFICADO)
 =========================== */
 .lb-rank-banner {
   display: flex;
   align-items: center;
-  gap: 14px;
-  padding: 20px 20px;
+  justify-content: center;
+  width: 90px;      /* tamaño real */
+  height: 60px;     /* altura real */
   border-radius: 14px;
-  min-width: 220px;
+  position: relative;
+  overflow: visible;
+}
+
+.lb-avatar-3d {
+  margin-left: -10px;
 }
 
 .lb-rank-banner.rank-1 { background: #ffcc33; }
