@@ -21,7 +21,7 @@ export default function LeaderboardRow({ player, rank, onClick }) {
   const points = getPlayerPoints(player);
 
   return (
-    <div className="lb-row" onClick={onClick}>
+    <div className={`lb-row rank-${rank}`} onClick={onClick}>
       {/* Banner de rank + skin 3D */}
       <div className={`lb-rank-banner rank-${rank}`}>
         <span className="lb-rank-number">{rank}</span>
