@@ -444,3 +444,87 @@ body {
   height: 62px;
   image-rendering: pixelated;
 }
+
+/* ===========================
+   BANNER RANK DEL MODAL
+=========================== */
+.pm-rank-banner.rank-1 {
+  background: #ffcc33;
+}
+
+.pm-rank-banner.rank-2 {
+  background: #d0d0d0;
+}
+
+.pm-rank-banner.rank-3 {
+  background: #c47a2c;
+}
+
+/* ===========================
+   BANNER RANK DEL MODAL — AJUSTES
+=========================== */
+.pm-rank-banner {
+  padding: 16px 28px;
+  border-radius: 16px;
+  margin-bottom: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  font-size: 18px;
+}
+
+/* ===========================
+   DESTELLO EN EL FONDO DEL AVATAR
+=========================== */
+.lb-avatar-bg {
+  position: relative;
+  overflow: hidden;
+}
+
+.lb-avatar-bg::before {
+  content: "";
+  position: absolute;
+  width: 18px;
+  height: 160%;
+  background: rgba(255, 255, 255, 0.55);
+  filter: blur(6px);
+  transform: rotate(25deg);
+  top: -30%;
+  left: -40%;
+  animation: avatarSlash 2.8s ease-in-out infinite;
+  pointer-events: none;
+  z-index: 5;
+}
+
+@keyframes avatarSlash {
+  0% {
+    transform: translate(-40%, -40%) rotate(25deg);
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  40% {
+    transform: translate(40%, 40%) rotate(25deg);
+    opacity: 0.9;
+  }
+  60% {
+    opacity: 0;
+  }
+  100% {
+    transform: translate(40%, 40%) rotate(25deg);
+    opacity: 0;
+  }
+}
+
+.lb-avatar-bg * {
+  position: relative;
+  z-index: 10;
+}
+
+.lb-rank-banner.rank-1::before,
+.lb-rank-banner.rank-2::before,
+.lb-rank-banner.rank-3::before {
+  animation-duration: 2.5s;
+}
