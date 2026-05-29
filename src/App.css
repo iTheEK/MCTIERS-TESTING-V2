@@ -429,6 +429,55 @@ body {
 .lb-rank-banner.rank-2 { background: #d0d0d0; }
 .lb-rank-banner.rank-3 { background: #c47a2c; }
 
+/* ===========================
+   DESTELLO EN EL BANNER (TOP 1,2,3)
+=========================== */
+
+.lb-rank-banner.rank-1,
+.lb-rank-banner.rank-2,
+.lb-rank-banner.rank-3 {
+  position: relative;
+  overflow: hidden;
+}
+
+.lb-rank-banner.rank-1::before,
+.lb-rank-banner.rank-2::before,
+.lb-rank-banner.rank-3::before {
+  content: "";
+  position: absolute;
+  top: -40%;
+  left: -30%;
+  width: 18px;
+  height: 180%;
+  background: rgba(255, 255, 255, 0.55);
+  filter: blur(6px);
+  transform: rotate(25deg);
+  animation: slashMove 2.8s ease-in-out infinite;
+  pointer-events: none;
+  z-index: 5;
+}
+
+@keyframes slashMove {
+  0% {
+    transform: translate(-40%, -40%) rotate(25deg);
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  40% {
+    transform: translate(40%, 40%) rotate(25deg);
+    opacity: 0.9;
+  }
+  60% {
+    opacity: 0;
+  }
+  100% {
+    transform: translate(40%, 40%) rotate(25deg);
+    opacity: 0;
+  }
+}
+
 .lb-rank-number,
 .pm-rank-number {
   font-size: 22px;
@@ -443,6 +492,8 @@ body {
   width: 62px;
   height: 62px;
   image-rendering: pixelated;
+  position: relative;
+  z-index: 2;
 }
 
 /* ===========================
