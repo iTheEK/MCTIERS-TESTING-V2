@@ -33,18 +33,13 @@ export default function ProfileModal({ player, onClose }) {
         {/* NOMBRE */}
         <h2 className="pm-name">{player.name}</h2>
 
-        {/* OVERALL BANNER (COLOR DEL RANK) */}
-        <div className={`pm-overall-banner rank-${player.rank}`}>
+        {/* ÚNICO BANNER (COLOR DEL RANK + DESTELLO + OVERALL) */}
+        <div className={`pm-rank-banner rank-${player.rank}`}>
           <span className="pm-rank-number">{player.rank}.</span>
           <span className="pm-rank-trophy">🏆</span>
           <span className="pm-rank-text">
             OVERALL ({player.points} points)
           </span>
-        </div>
-
-        {/* BANNER DE RANK (DESTELLO) */}
-        <div className={`pm-rank-banner rank-${player.rank}`}>
-          <span className="pm-rank-number">{player.rank}</span>
         </div>
 
         {/* MODALIDADES */}
