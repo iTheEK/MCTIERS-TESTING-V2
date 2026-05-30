@@ -465,7 +465,7 @@ body {
 
 @keyframes slashMove {
   0% {
-    transform: translate(-300%, -300%) rotate(25deg);
+    transform: translate(-200%, -200%) rotate(25deg);
     opacity: 0;
   }
   10% {
