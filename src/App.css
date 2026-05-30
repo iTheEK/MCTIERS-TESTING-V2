@@ -503,7 +503,7 @@ body {
 
 .lb-rank-banner * {
   position: relative;
-  z-index: 3; /* contenido encima del destello */
+  z-index: 10; /* contenido encima del destello */
 }
 
 /* ===========================
@@ -566,7 +566,7 @@ body {
   left: -40%;
   animation: avatarSlash 2.8s ease-in-out infinite;
   pointer-events: none;
-  z-index: 5;
+  z-index: 999;
 }
 
 @keyframes avatarSlash {
