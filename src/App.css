@@ -447,8 +447,9 @@ body {
 =========================== */
 .lb-rank-banner {
   display: flex;
-  justify-content: space-between; /* ← SEPARA NÚMERO Y SKIN */
+  justify-content: center;   /* ← CENTRA TODO */
   align-items: center;
+  gap: 20px;                 /* ← SEPARA NÚMERO Y SKIN */
   padding: 20px 20px;
   border-radius: 14px;
   min-width: 220px;
