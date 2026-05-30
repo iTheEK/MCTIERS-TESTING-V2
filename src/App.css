@@ -449,7 +449,7 @@ body {
   display: flex;
   justify-content: center;   /* ← CENTRA TODO */
   align-items: center;
-  gap: 20px;                 /* ← SEPARA NÚMERO Y SKIN */
+  gap: 16px;                 /* ← SEPARA NÚMERO Y SKIN */
   padding: 20px 20px;
   border-radius: 14px;
   min-width: 220px;
@@ -465,6 +465,11 @@ body {
 .lb-avatar-3d {
   /* margin-left: -10px; ← QUITAR ESTO */
   margin-left: 0;
+}
+
+.lb-left {
+  min-width: 28px; /* ← espacio para el número */
+  justify-content: center;
 }
 
 .lb-rank-banner.rank-1 { background: #ffcc33; }
