@@ -201,3 +201,8 @@ body {
 .pm-icon-circle.ht5 {
   color: #4a4a4a;
 }
+
+/* FORZAR HT5 A VERSE IGUAL QUE LT5/LT4 */
+.lb-tier-text.ht5 {
+  font-size: 12px;
+}
