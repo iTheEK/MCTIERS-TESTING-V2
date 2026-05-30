@@ -6,6 +6,7 @@ body {
   color: white;
   margin: 0;
   font-family: Arial, sans-serif;
+  text-shadow: 0 0 8px rgba(0,0,0,0.9); /* ← SOMBRA GLOBAL */
 }
 
 .app {
