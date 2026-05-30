@@ -546,7 +546,7 @@ body {
   z-index: 2;
 }
 .lb-avatar-3d {
-  transform: scale(2.3) translateY(10px);
+  transform: scale(2) translateY(10px);
 }
 
 /* ===========================
