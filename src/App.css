@@ -452,7 +452,7 @@ body {
   content: "";
   position: absolute;
   top: 100%;
-  left: 60%;
+  left: 45%;
   width: 50px;
   height: 300%;
   background: rgba(255, 255, 255, 0.55);
@@ -465,14 +465,14 @@ body {
 
 @keyframes slashMove {
   0% {
-    transform: translate(-200%, -200%) rotate(25deg);
+    transform: translate(-150%, -150%) rotate(25deg);
     opacity: 0;
   }
   10% {
     opacity: 1;
   }
   40% {
-    transform: translate(300%, 300%) rotate(25deg);
+    transform: translate(350%, 350%) rotate(25deg);
     opacity: 1;
   }
   60% {
