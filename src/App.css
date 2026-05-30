@@ -290,6 +290,26 @@ body {
   object-fit: cover;         /* ← AJUSTA PERFECTO */
 }
 
+/* ===========================
+   AVATAR — COLORES SEGÚN RANK
+=========================== */
+.pm-avatar.rank-1 {
+  border-color: #ffcc33; /* dorado */
+}
+
+.pm-avatar.rank-2 {
+  border-color: #d0d0d0; /* plateado */
+}
+
+.pm-avatar.rank-3 {
+  border-color: #c47a2c; /* bronce */
+}
+
+/* Resto de jugadores */
+.pm-avatar.default-rank {
+  border-color: #2a2a2a; /* gris oscuro */
+}
+
 .pm-name {
   font-size: 26px;
   margin-top: 14px;
