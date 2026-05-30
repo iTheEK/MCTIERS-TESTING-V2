@@ -445,14 +445,17 @@ body {
 /* ===========================
    BANNER RANK (UNIFICADO)
 =========================== */
+/* ===========================
+   BANNER RANK (UNIFICADO)
+=========================== */
 .lb-rank-banner {
   display: flex;
-  justify-content: center;   /* ← CENTRA TODO */
+  justify-content: space-between; /* ← SEPARA NÚMERO Y SKIN */
   align-items: center;
-  gap: 16px;                 /* ← SEPARA NÚMERO Y SKIN */
   padding: 20px 20px;
   border-radius: 14px;
-  min-width: 220px;
+  width: 180px;        /* ← ancho perfecto */
+  flex-shrink: 0;      /* ← evita que se aplaste */
   position: relative;
   overflow: hidden;
 }
@@ -566,13 +569,14 @@ body {
 /* ===========================
    SKIN 3D
 =========================== */
+/* ===========================
+   SKIN 3D
+=========================== */
 .lb-avatar-3d {
-  width: 48px;
-  height: 48px;
+  width: 64px;
+  height: 64px;
+  transform: translateY(6px);
   image-rendering: pixelated;
-  position: relative;
-  z-index: 2;
-  transform: scale(1) translateY(0);
 }
 
 /* ===========================
