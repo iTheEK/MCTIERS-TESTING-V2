@@ -451,10 +451,10 @@ body {
 .lb-rank-banner.rank-3::before {
   content: "";
   position: absolute;
-  top: 0%;
-  left: -20%;
-  width: 120px;
-  height: 200%;
+  top: -80%;
+  left: -80%;
+  width: 260px;
+  height: 360%;
   background: rgba(255, 255, 255, 0.55);
   filter: blur(6px);
   transform: rotate(25deg);
@@ -472,14 +472,14 @@ body {
     opacity: 1;
   }
   40% {
-    transform: translate(160%, 160%) rotate(25deg);
+    transform: translate(200%, 200%) rotate(25deg);
     opacity: 0.9;
   }
   60% {
     opacity: 0;
   }
   100% {
-    transform: translate(160%, 160%) rotate(25deg);
+    transform: translate(200%, 200%) rotate(25deg);
     opacity: 0;
   }
 }
