@@ -451,13 +451,13 @@ body {
 .lb-rank-banner.rank-3::before {
   content: "";
   position: absolute;
-  top: -80%;
-  left: -80%;
-  width: 260px;
-  height: 360%;
+  top: -50%;
+  left: -50%;
+  width: 250px;
+  height: 250%;
   background: rgba(255, 255, 255, 0.55);
   filter: blur(6px);
-  transform: rotate(25deg);
+  transform: rotate(15deg);
   animation: slashMove 2.8s ease-in-out infinite;
   pointer-events: none;
   z-index: 5;
