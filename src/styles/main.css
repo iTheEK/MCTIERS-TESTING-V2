@@ -179,3 +179,33 @@ body {
   text-transform: uppercase;
   text-shadow: 0px 0px 3px black;
 }
+
+/* ===========================
+   HT5 (Fondo y color)
+=========================== */
+
+/* Leaderboard */
+.lb-tier-circle.ht5 {
+  background: #3a3a3a; /* igual que LT5 */
+}
+
+.lb-tier-text.ht5 {
+  color: #4a4a4a; /* igual que LT5 */
+}
+
+.lb-icon-circle.ht5 {
+  color: #4a4a4a;
+}
+
+/* Modal */
+.pm-tier-circle.ht5 {
+  background: #3a3a3a;
+}
+
+.pm-tier-text.ht5 {
+  color: #4a4a4a;
+}
+
+.pm-icon-circle.ht5 {
+  color: #4a4a4a;
+}
