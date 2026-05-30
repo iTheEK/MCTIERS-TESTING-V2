@@ -458,7 +458,7 @@ body {
   background: rgba(255, 255, 255, 0.55);
   filter: blur(6px);
   transform: rotate(15deg);
-  animation: slashMove 3.8s ease-in-out infinite;
+  animation: slashMove 5s ease-in-out infinite;
   pointer-events: none;
   z-index: 5;
 }
