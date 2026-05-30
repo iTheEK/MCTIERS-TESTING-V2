@@ -468,8 +468,19 @@ body {
 }
 
 .lb-left {
-  min-width: 28px; /* ← espacio para el número */
+  width: 36px;     /* ← BLOQUE FIJO, NO FLEXIBLE */
+  display: flex;
   justify-content: center;
+  align-items: center;
+}
+
+.lb-rank-number {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px; /* opcional */
 }
 
 .lb-rank-banner.rank-1 { background: #ffcc33; }
