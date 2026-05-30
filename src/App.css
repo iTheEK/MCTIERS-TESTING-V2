@@ -70,10 +70,9 @@ body {
 }
 
 .lb-row {
-  display: grid;
-  grid-template-columns: 220px 1fr 120px auto;
+  display: flex;
   align-items: center;
-  gap: 14px;
+  gap: 20px;
   padding: 26px 32px;
   background: #111;
   border-bottom: 1px solid #1f1f1f;
@@ -456,6 +455,11 @@ body {
   min-width: 220px;
   position: relative;
   overflow: hidden;
+}
+
+.lb-rank-banner {
+  width: 180px;
+  flex-shrink: 0;
 }
 
 .lb-left, .lb-right {
