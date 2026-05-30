@@ -46,7 +46,7 @@ export default function LeaderboardRow({ player, rank, onClick }) {
       <div className="lb-modes">
         {modeList.map((mode) => {
           const tier = player.modes?.[mode] || "";
-          const cls = tier ? tier.trim().toLowerCase() : "";
+          const cls = tier?.toString().trim().replace(/\s+/g, "").toLowerCase();
 
           return (
             <div key={mode} className="lb-mode-item">
