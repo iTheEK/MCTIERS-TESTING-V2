@@ -570,11 +570,13 @@ body {
    SKIN 3D
 =========================== */
 .lb-avatar-3d {
-  width: 100px;              /* más ancha */
-  height: 100px;             /* más alta */
-  transform: translateY(8px); /* baja la skin para que no flote */
+  position: absolute;
+  right: -10px;        /* mueve la skin hacia la derecha */
+  bottom: -6px;        /* baja la skin para que no flote */
+  width: 90px;         /* skin grande */
+  height: 90px;
   image-rendering: pixelated;
-  pointer-events: none;     /* evita bugs al hacer click */
+  pointer-events: none;
 }
 
 /* ===========================
