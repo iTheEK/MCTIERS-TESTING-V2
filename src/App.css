@@ -569,14 +569,12 @@ body {
 /* ===========================
    SKIN 3D
 =========================== */
-/* ===========================
-   SKIN 3D
-=========================== */
 .lb-avatar-3d {
-  width: 64px;
-  height: 64px;
-  transform: translateY(6px);
+  width: 80px;              /* más ancha */
+  height: 80px;             /* más alta */
+  transform: translateY(8px); /* baja la skin para que no flote */
   image-rendering: pixelated;
+  pointer-events: none;     /* evita bugs al hacer click */
 }
 
 /* ===========================
