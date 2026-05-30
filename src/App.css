@@ -545,6 +545,9 @@ body {
   position: relative;
   z-index: 2;
 }
+.lb-avatar-3d {
+  transform: scale(0.75) translateY(6px);
+}
 
 /* ===========================
    BANNER RANK DEL MODAL
