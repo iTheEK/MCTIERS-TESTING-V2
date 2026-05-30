@@ -668,3 +668,35 @@ body {
 .lb-rank-banner.rank-3::before {
   animation-duration: 2.5s;
 }
+
+/* ===========================
+   HT5 — IGUAL QUE LT5/LT4
+=========================== */
+
+/* Círculo */
+.lb-tier-circle.ht5 {
+  background: #6e6e6e;
+}
+
+/* Texto */
+.lb-tier-text.ht5 {
+  color: #b5b5b5;
+}
+
+/* Icono */
+.lb-icon-circle.ht5 {
+  color: #b5b5b5;
+}
+
+/* MODAL */
+.pm-tier-circle.ht5 {
+  background: #6e6e6e;
+}
+
+.pm-tier-text.ht5 {
+  color: #b5b5b5;
+}
+
+.pm-icon-circle.ht5 {
+  color: #b5b5b5;
+}
