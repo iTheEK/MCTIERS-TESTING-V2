@@ -188,3 +188,16 @@ body {
 .lb-icon-circle.ht5 {
   color: #4a4a4a;
 }
+
+/* HT5 en el MODAL */
+.pm-tier-circle.ht5 {
+  background: #3a3a3a;
+}
+
+.pm-tier-text.ht5 {
+  color: #4a4a4a;
+}
+
+.pm-icon-circle.ht5 {
+  color: #4a4a4a;
+}
