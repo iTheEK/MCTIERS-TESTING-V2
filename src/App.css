@@ -472,7 +472,7 @@ body {
     opacity: 1;
   }
   40% {
-    transform: translate(200%, 200%) rotate(25deg);
+    transform: translate(400%, 400%) rotate(25deg);
     opacity: 0.9;
   }
   60% {
