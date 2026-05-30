@@ -572,8 +572,8 @@ body {
 .lb-avatar-3d {
   position: absolute;
   right: -10px;        /* mueve la skin hacia la derecha */
-  bottom: -60px;        /* baja la skin para que no flote */
-  width: 75px;         /* skin grande */
+  bottom: -55px;        /* baja la skin para que no flote */
+  width: 90px;         /* skin grande */
   height: 90px;
   image-rendering: pixelated;
   pointer-events: none;
