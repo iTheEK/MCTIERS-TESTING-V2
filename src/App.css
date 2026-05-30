@@ -473,14 +473,14 @@ body {
   }
   40% {
     transform: translate(700%, 700%) rotate(25deg);
-    opacity: 0.9;
+    opacity: 1;
   }
   60% {
     opacity: 1;
   }
   100% {
     transform: translate(100%, 100%) rotate(25deg);
-    opacity: 0;
+    opacity: 1;
   }
 }
 
