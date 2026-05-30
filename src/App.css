@@ -456,6 +456,11 @@ body {
   overflow: hidden;
 }
 
+.lb-left, .lb-right {
+  display: flex;
+  align-items: center;
+}
+
 .lb-avatar-3d {
   /* margin-left: -10px; ← QUITAR ESTO */
   margin-left: 0;
