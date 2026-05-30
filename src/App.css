@@ -452,8 +452,8 @@ body {
   content: "";
   position: absolute;
   top: -50%;
-  left: 50%;
-  width: 250px;
+  left: 40%;
+  width: 50px;
   height: 250%;
   background: rgba(255, 255, 255, 0.55);
   filter: blur(6px);
