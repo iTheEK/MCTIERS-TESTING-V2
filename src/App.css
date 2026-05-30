@@ -472,14 +472,14 @@ body {
     opacity: 1;
   }
   40% {
-    transform: translate(300%, 300%) rotate(25deg);
+    transform: translate(100%, 100%) rotate(25deg);
     opacity: 0.9;
   }
   60% {
     opacity: 0;
   }
   100% {
-    transform: translate(300%, 300%) rotate(25deg);
+    transform: translate(100%, 100%) rotate(25deg);
     opacity: 0;
   }
 }
