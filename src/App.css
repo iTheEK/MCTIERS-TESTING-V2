@@ -453,8 +453,8 @@ body {
   position: absolute;
   top: 100%;
   left: 35%;
-  width: 50px;
-  height: 570%;
+  width: 40px;
+  height: 670%;
   background: rgba(255, 255, 255, 0.55);
   filter: blur(6px);
   transform: rotate(15deg);
