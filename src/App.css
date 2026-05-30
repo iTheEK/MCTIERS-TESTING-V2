@@ -547,6 +547,12 @@ body {
   font-size: 18px;
 }
 
+.pm-rank-text {
+  font-weight: 900;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
 /* ===========================
    DESTELLO EN EL FONDO DEL AVATAR
 =========================== */
