@@ -1,4 +1,43 @@
 [
+          {
+    "name": "BR1_Tulachika",
+    "modes": {
+      "UHC": "-",
+      "SWORD": "-",
+      "AXE": "-",
+      "DIAPOT": "-",
+      "NETHPOT": "-",
+      "MAZO": "HT5",
+      "CRYSTAL": "-",
+      "SMP": "-"
+    }
+  },
+          {
+    "name": "bananinoq",
+    "modes": {
+      "UHC": "-",
+      "SWORD": "HT5",
+      "AXE": "-",
+      "DIAPOT": "-",
+      "NETHPOT": "-",
+      "MAZO": "HT4",
+      "CRYSTAL": "-",
+      "SMP": "-"
+    }
+  },
+          {
+    "name": "ToitoSBM",
+    "modes": {
+      "UHC": "HT5",
+      "SWORD": "HT5",
+      "AXE": "-",
+      "DIAPOT": "-",
+      "NETHPOT": "-",
+      "MAZO": "-",
+      "CRYSTAL": "-",
+      "SMP": "-"
+    }
+  },
          {
     "name": "zetapee",
     "modes": {
