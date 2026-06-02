@@ -1,4 +1,56 @@
 [
+           {
+    "name": "Marcelab21",
+    "modes": {
+      "UHC": "-",
+      "SWORD": "-",
+      "AXE": "-",
+      "DIAPOT": "-",
+      "NETHPOT": "-",
+      "MAZO": "-",
+      "CRYSTAL": "HT5",
+      "SMP": "-"
+    }
+  },
+           {
+    "name": "iDylan",
+    "modes": {
+      "UHC": "-",
+      "SWORD": "-",
+      "AXE": "-",
+      "DIAPOT": "-",
+      "NETHPOT": "-",
+      "MAZO": "-",
+      "CRYSTAL": "HT5",
+      "SMP": "-"
+    }
+  },
+           {
+    "name": "FlaiteBestcl",
+    "modes": {
+      "UHC": "-",
+      "SWORD": "-",
+      "AXE": "LT5",
+      "DIAPOT": "-",
+      "NETHPOT": "-",
+      "MAZO": "-",
+      "CRYSTAL": "LT4",
+      "SMP": "-"
+    }
+  },
+           {
+    "name": "KingSantiNew",
+    "modes": {
+      "UHC": "HT5",
+      "SWORD": "HT4",
+      "AXE": "-",
+      "DIAPOT": "-",
+      "NETHPOT": "-",
+      "MAZO": "-",
+      "CRYSTAL": "LT4",
+      "SMP": "-"
+    }
+  },
           {
     "name": "BR1_Tulachika",
     "modes": {
@@ -1152,7 +1204,7 @@
       "DIAPOT": "-",
       "NETHPOT": "-",
       "MAZO": "HT5",
-      "CRYSTAL": "-",
+      "CRYSTAL": "LT5",
       "SMP": "-"
     }
   },
