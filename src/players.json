@@ -1186,12 +1186,12 @@
     "name": "yNeoo",
     "modes": {
       "UHC": "-",
-      "SWORD": "LT3",
+      "SWORD": "-",
       "AXE": "-",
       "DIAPOT": "-",
-      "NETHPOT": "LT3",
+      "NETHPOT": "-",
       "MAZO": "LT5",
-      "CRYSTAL": "LT3",
+      "CRYSTAL": "LT5",
       "SMP": "-"
     }
   },
