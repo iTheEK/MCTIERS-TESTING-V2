@@ -1,4 +1,95 @@
 [
+            {
+    "name": "DygganASMR",
+    "modes": {
+      "UHC": "HT5",
+      "SWORD": "LT4",
+      "AXE": "LT5",
+      "DIAPOT": "-",
+      "NETHPOT": "-",
+      "MAZO": "LT3",
+      "CRYSTAL": "HT5",
+      "SMP": "-"
+    }
+  },
+            {
+    "name": "D8row3199",
+    "modes": {
+      "UHC": "-",
+      "SWORD": "-",
+      "AXE": "-",
+      "DIAPOT": "-",
+      "NETHPOT": "-",
+      "MAZO": "LT5",
+      "CRYSTAL": "-",
+      "SMP": "-"
+    }
+  },
+            {
+    "name": "vryzvm           ",
+    "modes": {
+      "UHC": "-",
+      "SWORD": "-",
+      "AXE": "-",
+      "DIAPOT": "-",
+      "NETHPOT": "-",
+      "MAZO": "LT5",
+      "CRYSTAL": "-",
+      "SMP": "-"
+    }
+  },
+           {
+    "name": "lvmie",
+    "modes": {
+      "UHC": "-",
+      "SWORD": "-",
+      "AXE": "-",
+      "DIAPOT": "-",
+      "NETHPOT": "-",
+      "MAZO": "HT5",
+      "CRYSTAL": "LT3",
+      "SMP": "-"
+    }
+  },
+            {
+    "name": "Darlaihk",
+    "modes": {
+      "UHC": "-",
+      "SWORD": "-",
+      "AXE": "-",
+      "DIAPOT": "-",
+      "NETHPOT": "-",
+      "MAZO": "HT5",
+      "CRYSTAL": "-",
+      "SMP": "-"
+    }
+  },
+            {
+    "name": "Dstri",
+    "modes": {
+      "UHC": "LT4",
+      "SWORD": "LT4",
+      "AXE": "-",
+      "DIAPOT": "-",
+      "NETHPOT": "-",
+      "MAZO": "-",
+      "CRYSTAL": "-",
+      "SMP": "-"
+    }
+  },
+            {
+    "name": "SrLocuras",
+    "modes": {
+      "UHC": "-",
+      "SWORD": "-",
+      "AXE": "-",
+      "DIAPOT": "-",
+      "NETHPOT": "-",
+      "MAZO": "LT5",
+      "CRYSTAL": "-",
+      "SMP": "-"
+    }
+  },
            {
     "name": "Marcelab21",
     "modes": {
@@ -184,8 +275,8 @@
      {
     "name": "PolloDRokys",
     "modes": {
-      "UHC": "-",
-      "SWORD": "HT5",
+      "UHC": "UHC",
+      "SWORD": "LT4",
       "AXE": "-",
       "DIAPOT": "-",
       "NETHPOT": "-",
@@ -359,7 +450,7 @@
       "DIAPOT": "-",
       "NETHPOT": "-",
       "MAZO": "-",
-      "CRYSTAL": "-",
+      "CRYSTAL": "HT4",
       "SMP": "-"
     }
   },
@@ -762,7 +853,7 @@
       "DIAPOT": "-",
       "NETHPOT": "-",
       "MAZO": "LT5",
-      "CRYSTAL": "-",
+      "CRYSTAL": "LT5",
       "SMP": "-"
     }
   },
