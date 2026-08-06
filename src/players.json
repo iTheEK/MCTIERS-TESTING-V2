@@ -1380,13 +1380,13 @@
   {
     "name": "NoSoyHenry",
     "modes": {
-      "UHC": "-",
-      "SWORD": "HT5",
+      "UHC": "HT5",
+      "SWORD": "HT4",
       "AXE": "HT4",
       "DIAPOT": "HT4",
       "NETHPOT": "-",
-      "MAZO": "LT5",
-      "CRYSTAL": "LT4",
+      "MAZO": "HT4",
+      "CRYSTAL": "LT3",
       "SMP": "-"
     }
   },
@@ -1412,7 +1412,7 @@
       "DIAPOT": "-",
       "NETHPOT": "HT4",
       "MAZO": "HT5",
-      "CRYSTAL": "HT5",
+      "CRYSTAL": "LT4",
       "SMP": "-"
     }
   },
