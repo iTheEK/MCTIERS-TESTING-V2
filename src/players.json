@@ -1408,12 +1408,12 @@
     "modes": {
       "UHC": "HT4",
       "SWORD": "HT4",
-      "AXE": "LT4",
+      "AXE": "HT4",
       "DIAPOT": "-",
       "NETHPOT": "HT4",
       "MAZO": "HT5",
       "CRYSTAL": "LT4",
-      "SMP": "-"
+      "SMP": "HT4"
     }
   },
   {
